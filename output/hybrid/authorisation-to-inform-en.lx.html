@@ -1,0 +1,247 @@
+<meta charset="UTF-8">
+<style>
+.lx-highlight { position: relative; border-radius:3px; padding:1px 2px;}
+.lx-highlight .lx-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  max-width: 240px;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.lx-highlight:hover .lx-tooltip { visibility: visible; opacity:1; }
+.lx-animated-wrapper { max-width: 100%; font-family: Arial, sans-serif; }
+.lx-controls {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 8px;
+  padding: 12px; margin-bottom: 16px;
+}
+.lx-button-row {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.lx-control-btn {
+  background: #4285f4; color: white; border: none; border-radius: 4px;
+  padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500;
+  transition: background-color 0.2s;
+}
+.lx-control-btn:hover { background: #3367d6; }
+.lx-progress-container {
+  margin-bottom: 8px;
+}
+.lx-progress-slider {
+  width: 100%; margin: 0; appearance: none; height: 6px;
+  background: #ddd; border-radius: 3px; outline: none;
+}
+.lx-progress-slider::-webkit-slider-thumb {
+  appearance: none; width: 18px; height: 18px; background: #4285f4;
+  border-radius: 50%; cursor: pointer;
+}
+.lx-progress-slider::-moz-range-thumb {
+  width: 18px; height: 18px; background: #4285f4; border-radius: 50%;
+  cursor: pointer; border: none;
+}
+.lx-status-text {
+  text-align: center; font-size: 12px; color: #666; margin-top: 4px;
+}
+.lx-text-window {
+  font-family: monospace; white-space: pre-wrap; border: 1px solid #90caf9;
+  padding: 12px; max-height: 260px; overflow-y: auto; margin-bottom: 12px;
+  line-height: 1.6;
+}
+.lx-attributes-panel {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 6px;
+  padding: 8px 10px; margin-top: 8px; font-size: 13px;
+}
+.lx-current-highlight {
+  border-bottom: 4px solid #ff4444;
+  font-weight: bold;
+  animation: lx-pulse 1s ease-in-out;
+}
+@keyframes lx-pulse {
+  0% { text-decoration-color: #ff4444; }
+  50% { text-decoration-color: #ff0000; }
+  100% { text-decoration-color: #ff4444; }
+}
+.lx-legend {
+  font-size: 12px; margin-bottom: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid #e0e0e0;
+}
+.lx-label {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+  color: #000;
+}
+.lx-attr-key {
+  font-weight: 600;
+  color: #1565c0;
+  letter-spacing: 0.3px;
+}
+.lx-attr-value {
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.2px;
+}
+
+/* Add optimizations with larger fonts and better readability for GIFs */
+.lx-gif-optimized .lx-text-window { font-size: 16px; line-height: 1.8; }
+.lx-gif-optimized .lx-attributes-panel { font-size: 15px; }
+.lx-gif-optimized .lx-current-highlight { text-decoration-thickness: 4px; }
+</style>
+    <div class="lx-animated-wrapper lx-gif-optimized">
+      <div class="lx-attributes-panel">
+        <div class="lx-legend">Highlights Legend: <span class="lx-label" style="background-color:#D2E3FC;">field_label</span> <span class="lx-label" style="background-color:#C8E6C9;">footnote</span> <span class="lx-label" style="background-color:#FEF0C3;">form_title</span> <span class="lx-label" style="background-color:#F9DEDC;">instruction</span> <span class="lx-label" style="background-color:#FFDDBE;">legal_text</span> <span class="lx-label" style="background-color:#EADDFF;">required_document</span> <span class="lx-label" style="background-color:#C4E9E4;">section_title</span></div>
+        <div id="attributesContainer"></div>
+      </div>
+      <div class="lx-text-window" id="textWindow">
+        Vested Benefits Foundation of UBS AG
+P.O.Box, CH-8098 Zurich
+Tel.+41-61-226 75 75
+ubs.com/vb
+Vested benefits account
+Vested Benefits Foundation of UBS AG
+P.O. Box
+CH-8098 Zurich
+<span class="lx-highlight lx-current-highlight" data-idx="0" style="background-color:#FEF0C3;">Authorisation to give information</span>
+<span class="lx-highlight" data-idx="1" style="background-color:#C4E9E4;">Details of pension account holder¹</span>
+<span class="lx-highlight" data-idx="2" style="background-color:#D2E3FC;">Last name</span>
+<span class="lx-highlight" data-idx="3" style="background-color:#D2E3FC;">First name(s)</span>
+<span class="lx-highlight" data-idx="4" style="background-color:#D2E3FC;">Street, no.</span>
+<span class="lx-highlight" data-idx="5" style="background-color:#D2E3FC;">Postal code, city</span>
+<span class="lx-highlight" data-idx="6" style="background-color:#D2E3FC;">Country</span>
+<span class="lx-highlight" data-idx="7" style="background-color:#D2E3FC;">Date of birth (dd.mm.yyyy)</span>
+<span class="lx-highlight" data-idx="8" style="background-color:#D2E3FC;">AHV number / Social security number (756.xxxx.xxxx.xx)</span>
+<span class="lx-highlight" data-idx="9" style="background-color:#D2E3FC;">Phone no.</span>
+<span class="lx-highlight" data-idx="10" style="background-color:#C4E9E4;">The authorised representative</span>
+<span class="lx-highlight" data-idx="11" style="background-color:#D2E3FC;">Last name</span>
+<span class="lx-highlight" data-idx="12" style="background-color:#D2E3FC;">First name(s)</span>
+<span class="lx-highlight" data-idx="13" style="background-color:#D2E3FC;">Street, no.</span>
+<span class="lx-highlight" data-idx="14" style="background-color:#D2E3FC;">Postal code, city</span>
+<span class="lx-highlight" data-idx="15" style="background-color:#D2E3FC;">Phone no.</span>
+<span class="lx-highlight" data-idx="16" style="background-color:#C4E9E4;">Authorisation</span>
+<span class="lx-highlight" data-idx="17" style="background-color:#FFDDBE;">The authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and
+the UBS vested benefits custody account from the Vested Benefits Foundation of UBS AG (&quot;Vested Benefits Foundation&quot;) on behalf of the pen-
+sion account holder.</span>
+<span class="lx-highlight" data-idx="18" style="background-color:#FFDDBE;">The pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep-
+resentative that they chooses. Therefore, it shall be the authorised representative’s exclusive responsibility to notify the pension account holder of
+their actions.</span>
+<span class="lx-highlight" data-idx="19" style="background-color:#FFDDBE;">This authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa-
+tion shall remain in force without restriction even in the event of incapacity of the pension account holder.</span> <span class="lx-highlight" data-idx="20" style="background-color:#FFDDBE;">Once the Vested Benefits Foundation
+has knowledge of the pension account holder’s death, this authorisation shall be considered void as of the date on which the information has
+been received.
+The present authorisation shall be exclusively governed by and construed in accordance with Swiss law.
+The place of performance of all obligations of both parties as well as the exclusive place of jurisdiction for any disputes arising out of and in
+connection with the present authorisation is the Swiss foundation&#x27;s seat.
+The Vested Benefits Foundation is empowered, however, to assert its rights as well before any other competent authority, in which event exclu-
+sively Swiss law shall remain applicable.</span>
+
+<span class="lx-highlight" data-idx="21" style="background-color:#C4E9E4;">Signature(s)</span>
+<span class="lx-highlight" data-idx="22" style="background-color:#D2E3FC;">Place</span>
+<span class="lx-highlight" data-idx="23" style="background-color:#D2E3FC;">Date (dd.mm.yyyy)</span>
+<span class="lx-highlight" data-idx="24" style="background-color:#D2E3FC;">Signature of the authorised representative</span>
+<span class="lx-highlight" data-idx="25" style="background-color:#EADDFF;">(Please enclose a copy of signed identity document)</span>
+<span class="lx-highlight" data-idx="26" style="background-color:#D2E3FC;">Name of the authorised representative</span>
+<span class="lx-highlight" data-idx="27" style="background-color:#D2E3FC;">Place</span>
+<span class="lx-highlight" data-idx="28" style="background-color:#D2E3FC;">Date (dd.mm.yyyy)</span>
+<span class="lx-highlight" data-idx="29" style="background-color:#D2E3FC;">Signature of the pension account holder</span>
+<span class="lx-highlight" data-idx="30" style="background-color:#EADDFF;">(Please enclose a copy of signed identity document)</span>
+<span class="lx-highlight" data-idx="31" style="background-color:#D2E3FC;">Name of the pension account holder</span>
+<span class="lx-highlight" data-idx="32" style="background-color:#F9DEDC;">Send original to the Vested Benefits Foundation of UBS AG.</span>
+<span class="lx-highlight" data-idx="33" style="background-color:#C8E6C9;">¹ The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.</span>
+<span class="lx-highlight" data-idx="34" style="background-color:#C4E9E4;">For internal bank use only</span>
+<span class="lx-highlight" data-idx="35" style="background-color:#D2E3FC;">Signature(s) verified / Signed in my presence</span>
+<span class="lx-highlight" data-idx="36" style="background-color:#D2E3FC;">OU ref.</span>
+<span class="lx-highlight" data-idx="37" style="background-color:#D2E3FC;">Signature</span>
+      </div>
+      <div class="lx-controls">
+        <div class="lx-button-row">
+          <button class="lx-control-btn" onclick="playPause()">▶️ Play</button>
+          <button class="lx-control-btn" onclick="prevExtraction()">⏮ Previous</button>
+          <button class="lx-control-btn" onclick="nextExtraction()">⏭ Next</button>
+        </div>
+        <div class="lx-progress-container">
+          <input type="range" id="progressSlider" class="lx-progress-slider"
+                 min="0" max="37" value="0"
+                 onchange="jumpToExtraction(this.value)">
+        </div>
+        <div class="lx-status-text">
+          Entity <span id="entityInfo">1/38</span> |
+          Pos <span id="posInfo">[178-211]</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        const extractions = [{"index": 0, "class": "form_title", "text": "Authorisation to give information", "color": "#FEF0C3", "startPos": 178, "endPos": 211, "beforeText": "f UBS AG\nP.O.Box, CH-8098 Zurich\nTel.+41-61-226 75 75\nubs.com/vb\nVested benefits account\nVested Benefits Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\n", "extractionText": "Authorisation to give information", "afterText": "\nDetails of pension account holder\u00b9\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social secur", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e form_title\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 1, "class": "section_title", "text": "Details of pension account holder\u00b9", "color": "#C4E9E4", "startPos": 212, "endPos": 246, "beforeText": "el.+41-61-226 75 75\nubs.com/vb\nVested benefits account\nVested Benefits Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\n", "extractionText": "Details of pension account holder\u00b9", "afterText": "\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e section_title\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 2, "class": "field_label", "text": "Last name", "color": "#D2E3FC", "startPos": 247, "endPos": 256, "beforeText": "ed benefits account\nVested Benefits Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder\u00b9\n", "extractionText": "Last name", "afterText": "\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe a", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 3, "class": "field_label", "text": "First name(s)", "color": "#D2E3FC", "startPos": 257, "endPos": 270, "beforeText": "s account\nVested Benefits Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder\u00b9\nLast name\n", "extractionText": "First name(s)", "afterText": "\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised repr", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 4, "class": "field_label", "text": "Street, no.", "color": "#D2E3FC", "startPos": 271, "endPos": 282, "beforeText": "ed Benefits Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder\u00b9\nLast name\nFirst name(s)\n", "extractionText": "Street, no.", "afterText": "\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nL", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 5, "class": "field_label", "text": "Postal code, city", "color": "#D2E3FC", "startPos": 283, "endPos": 300, "beforeText": "Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder\u00b9\nLast name\nFirst name(s)\nStreet, no.\n", "extractionText": "Postal code, city", "afterText": "\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst nam", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 6, "class": "field_label", "text": "Country", "color": "#D2E3FC", "startPos": 301, "endPos": 308, "beforeText": "AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder\u00b9\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\n", "extractionText": "Country", "afterText": "\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStr", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 7, "class": "field_label", "text": "Date of birth (dd.mm.yyyy)", "color": "#D2E3FC", "startPos": 309, "endPos": 335, "beforeText": "Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder\u00b9\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\n", "extractionText": "Date of birth (dd.mm.yyyy)", "afterText": "\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\n", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {\u003cspan class=\"lx-attr-key\"\u003eformat_hint\u003c/span\u003e: \u003cspan class=\"lx-attr-value\"\u003edd.mm.yyyy\u003c/span\u003e}\u003c/div\u003e"}, {"index": 8, "class": "field_label", "text": "AHV number / Social security number (756.xxxx.xxxx.xx)", "color": "#D2E3FC", "startPos": 336, "endPos": 390, "beforeText": "ation to give information\nDetails of pension account holder\u00b9\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\n", "extractionText": "AHV number / Social security number (756.xxxx.xxxx.xx)", "afterText": "\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {\u003cspan class=\"lx-attr-key\"\u003eformat_hint\u003c/span\u003e: \u003cspan class=\"lx-attr-value\"\u003e756.xxxx.xxxx.xx\u003c/span\u003e}\u003c/div\u003e"}, {"index": 9, "class": "field_label", "text": "Phone no.", "color": "#D2E3FC", "startPos": 391, "endPos": 400, "beforeText": "lder\u00b9\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\n", "extractionText": "Phone no.", "afterText": "\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (only indiv", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 10, "class": "section_title", "text": "The authorised representative", "color": "#C4E9E4", "startPos": 401, "endPos": 430, "beforeText": " name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\n", "extractionText": "The authorised representative", "afterText": "\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (only individual persons) is hereby permi", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e section_title\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 11, "class": "field_label", "text": "Last name", "color": "#D2E3FC", "startPos": 431, "endPos": 440, "beforeText": ".\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\n", "extractionText": "Last name", "afterText": "\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (only individual persons) is hereby permitted to ob", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 12, "class": "field_label", "text": "First name(s)", "color": "#D2E3FC", "startPos": 441, "endPos": 454, "beforeText": "ode, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\n", "extractionText": "First name(s)", "afterText": "\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (only individual persons) is hereby permitted to obtain informati", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 13, "class": "field_label", "text": "Street, no.", "color": "#D2E3FC", "startPos": 455, "endPos": 466, "beforeText": "try\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\n", "extractionText": "Street, no.", "afterText": "\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (only individual persons) is hereby permitted to obtain information regarding", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 14, "class": "field_label", "text": "Postal code, city", "color": "#D2E3FC", "startPos": 467, "endPos": 484, "beforeText": "birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\n", "extractionText": "Postal code, city", "afterText": "\nPhone no.\nAuthorisation\nThe authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested be", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 15, "class": "field_label", "text": "Phone no.", "color": "#D2E3FC", "startPos": 485, "endPos": 494, "beforeText": "\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\n", "extractionText": "Phone no.", "afterText": "\nAuthorisation\nThe authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits acc", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 16, "class": "section_title", "text": "Authorisation", "color": "#C4E9E4", "startPos": 495, "endPos": 508, "beforeText": "r / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\n", "extractionText": "Authorisation", "afterText": "\nThe authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and\nthe U", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e section_title\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 17, "class": "legal_text", "text": "The authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and the UBS vested benefits custody account from the Vested Benefits Foundation of UBS AG (\"Vested Benefits Foundation\") on behalf of the pen- sion account holder.", "color": "#FFDDBE", "startPos": 509, "endPos": 812, "beforeText": "urity number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\n", "extractionText": "The authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and\nthe UBS vested benefits custody account from the Vested Benefits Foundation of UBS AG (\u0026quot;Vested Benefits Foundation\u0026quot;) on behalf of the pen-\nsion account holder.", "afterText": "\nThe pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep-\nresen", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e legal_text\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 18, "class": "legal_text", "text": "The pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep- resentative that they chooses. Therefore, it shall be the authorised representative\u2019s exclusive responsibility to notify the pension account holder of their actions.", "color": "#FFDDBE", "startPos": 813, "endPos": 1122, "beforeText": "sted benefits custody account from the Vested Benefits Foundation of UBS AG (\u0026quot;Vested Benefits Foundation\u0026quot;) on behalf of the pen-\nsion account holder.\n", "extractionText": "The pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep-\nresentative that they chooses. Therefore, it shall be the authorised representative\u2019s exclusive responsibility to notify the pension account holder of\ntheir actions.", "afterText": "\nThis authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa-\n", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e legal_text\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 19, "class": "legal_text", "text": "This authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa- tion shall remain in force without restriction even in the event of incapacity of the pension account holder.", "color": "#FFDDBE", "startPos": 1123, "endPos": 1381, "beforeText": " they chooses. Therefore, it shall be the authorised representative\u2019s exclusive responsibility to notify the pension account holder of\ntheir actions.\n", "extractionText": "This authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa-\ntion shall remain in force without restriction even in the event of incapacity of the pension account holder.", "afterText": " Once the Vested Benefits Foundation\nhas knowledge of the pension account holder\u2019s death, this authorisation shall be considered void as of the date o", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e legal_text\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 20, "class": "legal_text", "text": "Once the Vested Benefits Foundation has knowledge of the pension account holder\u2019s death, this authorisation shall be considered void as of the date on which the information has been received. The present authorisation shall be exclusively governed by and construed in accordance with Swiss law. The place of performance of all obligations of both parties as well as the exclusive place of jurisdiction for any disputes arising out of and in connection with the present authorisation is the Swiss foundation's seat. The Vested Benefits Foundation is empowered, however, to assert its rights as well before any other competent authority, in which event exclu- sively Swiss law shall remain applicable.", "color": "#FFDDBE", "startPos": 1382, "endPos": 2081, "beforeText": "ed Benefits Foundation. This authorisa-\ntion shall remain in force without restriction even in the event of incapacity of the pension account holder. ", "extractionText": "Once the Vested Benefits Foundation\nhas knowledge of the pension account holder\u2019s death, this authorisation shall be considered void as of the date on which the information has\nbeen received.\nThe present authorisation shall be exclusively governed by and construed in accordance with Swiss law.\nThe place of performance of all obligations of both parties as well as the exclusive place of jurisdiction for any disputes arising out of and in\nconnection with the present authorisation is the Swiss foundation\u0026#x27;s seat.\nThe Vested Benefits Foundation is empowered, however, to assert its rights as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.", "afterText": "\n\nSignature(s)\nPlace\nDate (dd.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the auth", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e legal_text\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 21, "class": "section_title", "text": "Signature(s)", "color": "#C4E9E4", "startPos": 2083, "endPos": 2095, "beforeText": "powered, however, to assert its rights as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.\n\n", "extractionText": "Signature(s)", "afterText": "\nPlace\nDate (dd.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised represe", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e section_title\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 22, "class": "field_label", "text": "Place", "color": "#D2E3FC", "startPos": 2096, "endPos": 2101, "beforeText": "ver, to assert its rights as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.\n\nSignature(s)\n", "extractionText": "Place", "afterText": "\nDate (dd.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised representativ", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 23, "class": "field_label", "text": "Date (dd.mm.yyyy)", "color": "#D2E3FC", "startPos": 2102, "endPos": 2119, "beforeText": "o assert its rights as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.\n\nSignature(s)\nPlace\n", "extractionText": "Date (dd.mm.yyyy)", "afterText": "\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised representative\nPlace\nDate (dd.m", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {\u003cspan class=\"lx-attr-key\"\u003eformat_hint\u003c/span\u003e: \u003cspan class=\"lx-attr-value\"\u003edd.mm.yyyy\u003c/span\u003e}\u003c/div\u003e"}, {"index": 24, "class": "field_label", "text": "Signature of the authorised representative", "color": "#D2E3FC", "startPos": 2120, "endPos": 2162, "beforeText": "s as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.\n\nSignature(s)\nPlace\nDate (dd.mm.yyyy)\n", "extractionText": "Signature of the authorised representative", "afterText": "\n(Please enclose a copy of signed identity document)\nName of the authorised representative\nPlace\nDate (dd.mm.yyyy)\nSignature of the pension account ho", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 25, "class": "required_document", "text": "(Please enclose a copy of signed identity document)", "color": "#EADDFF", "startPos": 2163, "endPos": 2214, "beforeText": "ity, in which event exclu-\nsively Swiss law shall remain applicable.\n\nSignature(s)\nPlace\nDate (dd.mm.yyyy)\nSignature of the authorised representative\n", "extractionText": "(Please enclose a copy of signed identity document)", "afterText": "\nName of the authorised representative\nPlace\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n(Please enclose a copy of signed identity docum", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e required_document\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 26, "class": "field_label", "text": "Name of the authorised representative", "color": "#D2E3FC", "startPos": 2215, "endPos": 2252, "beforeText": "main applicable.\n\nSignature(s)\nPlace\nDate (dd.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\n", "extractionText": "Name of the authorised representative", "afterText": "\nPlace\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n(Please enclose a copy of signed identity document)\nName of the pension account holde", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 27, "class": "field_label", "text": "Place", "color": "#D2E3FC", "startPos": 2253, "endPos": 2258, "beforeText": "ate (dd.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised representative\n", "extractionText": "Place", "afterText": "\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n(Please enclose a copy of signed identity document)\nName of the pension account holder\nSend", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 28, "class": "field_label", "text": "Date (dd.mm.yyyy)", "color": "#D2E3FC", "startPos": 2259, "endPos": 2276, "beforeText": "d.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised representative\nPlace\n", "extractionText": "Date (dd.mm.yyyy)", "afterText": "\nSignature of the pension account holder\n(Please enclose a copy of signed identity document)\nName of the pension account holder\nSend original to the V", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {\u003cspan class=\"lx-attr-key\"\u003eformat_hint\u003c/span\u003e: \u003cspan class=\"lx-attr-value\"\u003edd.mm.yyyy\u003c/span\u003e}\u003c/div\u003e"}, {"index": 29, "class": "field_label", "text": "Signature of the pension account holder", "color": "#D2E3FC", "startPos": 2277, "endPos": 2316, "beforeText": "re of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised representative\nPlace\nDate (dd.mm.yyyy)\n", "extractionText": "Signature of the pension account holder", "afterText": "\n(Please enclose a copy of signed identity document)\nName of the pension account holder\nSend original to the Vested Benefits Foundation of UBS AG.\n\u00b9 T", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 30, "class": "required_document", "text": "(Please enclose a copy of signed identity document)", "color": "#EADDFF", "startPos": 2317, "endPos": 2368, "beforeText": "ase enclose a copy of signed identity document)\nName of the authorised representative\nPlace\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n", "extractionText": "(Please enclose a copy of signed identity document)", "afterText": "\nName of the pension account holder\nSend original to the Vested Benefits Foundation of UBS AG.\n\u00b9 The singular form also includes the plural, and all m", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e required_document\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 31, "class": "field_label", "text": "Name of the pension account holder", "color": "#D2E3FC", "startPos": 2369, "endPos": 2403, "beforeText": " of the authorised representative\nPlace\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n(Please enclose a copy of signed identity document)\n", "extractionText": "Name of the pension account holder", "afterText": "\nSend original to the Vested Benefits Foundation of UBS AG.\n\u00b9 The singular form also includes the plural, and all masculine terms referring to persons", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 32, "class": "instruction", "text": "Send original to the Vested Benefits Foundation of UBS AG.", "color": "#F9DEDC", "startPos": 2404, "endPos": 2462, "beforeText": "lace\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n(Please enclose a copy of signed identity document)\nName of the pension account holder\n", "extractionText": "Send original to the Vested Benefits Foundation of UBS AG.", "afterText": "\n\u00b9 The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.\nFor internal bank use on", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e instruction\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 33, "class": "footnote", "text": "\u00b9 The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.", "color": "#C8E6C9", "startPos": 2463, "endPos": 2587, "beforeText": "der\n(Please enclose a copy of signed identity document)\nName of the pension account holder\nSend original to the Vested Benefits Foundation of UBS AG.\n", "extractionText": "\u00b9 The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.", "afterText": "\nFor internal bank use only\nSignature(s) verified / Signed in my presence\nOU ref.\nSignature", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e footnote\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 34, "class": "section_title", "text": "For internal bank use only", "color": "#C4E9E4", "startPos": 2588, "endPos": 2614, "beforeText": "ts Foundation of UBS AG.\n\u00b9 The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.\n", "extractionText": "For internal bank use only", "afterText": "\nSignature(s) verified / Signed in my presence\nOU ref.\nSignature", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e section_title\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 35, "class": "field_label", "text": "Signature(s) verified / Signed in my presence", "color": "#D2E3FC", "startPos": 2615, "endPos": 2660, "beforeText": "The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.\nFor internal bank use only\n", "extractionText": "Signature(s) verified / Signed in my presence", "afterText": "\nOU ref.\nSignature", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 36, "class": "field_label", "text": "OU ref.", "color": "#D2E3FC", "startPos": 2661, "endPos": 2668, "beforeText": "d all masculine terms referring to persons refer to persons of both genders.\nFor internal bank use only\nSignature(s) verified / Signed in my presence\n", "extractionText": "OU ref.", "afterText": "\nSignature", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}, {"index": 37, "class": "field_label", "text": "Signature", "color": "#D2E3FC", "startPos": 2669, "endPos": 2678, "beforeText": "sculine terms referring to persons refer to persons of both genders.\nFor internal bank use only\nSignature(s) verified / Signed in my presence\nOU ref.\n", "extractionText": "Signature", "afterText": "", "attributesHtml": "\u003cdiv\u003e\u003cstrong\u003eclass:\u003c/strong\u003e field_label\u003c/div\u003e\u003cdiv\u003e\u003cstrong\u003eattributes:\u003c/strong\u003e {}\u003c/div\u003e"}];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval = null;
+        let animationSpeed = 1.0;
+
+        function updateDisplay() {
+          const extraction = extractions[currentIndex];
+          if (!extraction) return;
+
+          document.getElementById('attributesContainer').innerHTML = extraction.attributesHtml;
+          document.getElementById('entityInfo').textContent = (currentIndex + 1) + '/' + extractions.length;
+          document.getElementById('posInfo').textContent = '[' + extraction.startPos + '-' + extraction.endPos + ']';
+          document.getElementById('progressSlider').value = currentIndex;
+
+          const playBtn = document.querySelector('.lx-control-btn');
+          if (playBtn) playBtn.textContent = isPlaying ? '⏸ Pause' : '▶️ Play';
+
+          const prevHighlight = document.querySelector('.lx-text-window .lx-current-highlight');
+          if (prevHighlight) prevHighlight.classList.remove('lx-current-highlight');
+          const currentSpan = document.querySelector('.lx-text-window span[data-idx="' + currentIndex + '"]');
+          if (currentSpan) {
+            currentSpan.classList.add('lx-current-highlight');
+            currentSpan.scrollIntoView({block: 'center', behavior: 'smooth'});
+          }
+        }
+
+        function nextExtraction() {
+          currentIndex = (currentIndex + 1) % extractions.length;
+          updateDisplay();
+        }
+
+        function prevExtraction() {
+          currentIndex = (currentIndex - 1 + extractions.length) % extractions.length;
+          updateDisplay();
+        }
+
+        function jumpToExtraction(index) {
+          currentIndex = parseInt(index);
+          updateDisplay();
+        }
+
+        function playPause() {
+          if (isPlaying) {
+            clearInterval(animationInterval);
+            isPlaying = false;
+          } else {
+            animationInterval = setInterval(nextExtraction, animationSpeed * 1000);
+            isPlaying = true;
+          }
+          updateDisplay();
+        }
+
+        window.playPause = playPause;
+        window.nextExtraction = nextExtraction;
+        window.prevExtraction = prevExtraction;
+        window.jumpToExtraction = jumpToExtraction;
+
+        updateDisplay();
+      })();
+    </script>

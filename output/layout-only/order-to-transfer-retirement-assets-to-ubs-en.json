@@ -1,0 +1,1021 @@
+{
+  "source_file": "order-to-transfer-retirement-assets-to-ubs-en.pdf",
+  "mode": "layout-only",
+  "model_id": null,
+  "page_count": 2,
+  "title": "Order to transfer retirement assets to the Vested Benefits\nFoundation of UBS AG",
+  "issuer": [],
+  "recipient_address": [
+    {
+      "type": "address",
+      "text": "Address of previous pension scheme:",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [
+        {
+          "name": "Text2",
+          "type": "text",
+          "page": 1,
+          "bbox": [
+            103.3,
+            103.9,
+            253.3,
+            182.2
+          ],
+          "label_position": "above"
+        }
+      ],
+      "provenance": {
+        "char_span": [
+          0,
+          35
+        ],
+        "page": 1,
+        "bbox": [
+          103.5,
+          86.3,
+          253.5,
+          103.8
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    }
+  ],
+  "parts": [
+    {
+      "kind": "form",
+      "title": {
+        "type": "form_title",
+        "text": "Order to transfer retirement assets to the Vested Benefits\nFoundation of UBS AG",
+        "layout_role": "title",
+        "llm_class": null,
+        "agreement": "layout_only",
+        "attributes": {},
+        "fields": [],
+        "provenance": {
+          "char_span": [
+            36,
+            115
+          ],
+          "page": 1,
+          "bbox": [
+            72.7,
+            241.4,
+            484.7,
+            258.4
+          ],
+          "font_size": 16.9,
+          "bold": false
+        }
+      },
+      "form_number": "62291",
+      "version_date": "15.03.2024",
+      "pages": [
+        1,
+        2
+      ],
+      "preamble": [
+        {
+          "type": "paragraph",
+          "text": "By using this form you are requesting the transfer of your vested benefits to the Vested Benefits Foundation of UBS AG.",
+          "layout_role": "paragraph",
+          "llm_class": null,
+          "agreement": "layout_only",
+          "attributes": {},
+          "fields": [],
+          "provenance": {
+            "char_span": [
+              116,
+              235
+            ],
+            "page": 1,
+            "bbox": [
+              72.7,
+              304.2,
+              456.6,
+              311.7
+            ],
+            "font_size": 7.5,
+            "bold": false
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Your new vested benefits account will only be opened after the vested benefits from your previous pension fund have been transfered and after\nthey have been booked to the account of the Vested Benefits Foundation of UBS AG.",
+          "layout_role": "paragraph",
+          "llm_class": null,
+          "agreement": "layout_only",
+          "attributes": {},
+          "fields": [],
+          "provenance": {
+            "char_span": [
+              236,
+              459
+            ],
+            "page": 1,
+            "bbox": [
+              72.7,
+              312.7,
+              539.3,
+              320.2
+            ],
+            "font_size": 7.5,
+            "bold": false
+          }
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Details of pension account holder",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                460,
+                493
+              ],
+              "page": 1,
+              "bbox": [
+                72.7,
+                341.5,
+                194.0,
+                349.1
+              ],
+              "font_size": 7.5,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Last name",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Nom",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    72.4,
+                    352.4,
+                    299.6,
+                    369.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  494,
+                  503
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  371.8,
+                  105.3,
+                  379.3
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "First name(s)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Prénom",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    312.4,
+                    352.4,
+                    539.6,
+                    369.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  504,
+                  517
+                ],
+                "page": 1,
+                "bbox": [
+                  312.7,
+                  371.8,
+                  352.8,
+                  379.3
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Street, no.",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Rue",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    72.0,
+                    379.1,
+                    539.1,
+                    395.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  518,
+                  529
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  398.5,
+                  106.1,
+                  406.0
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Postal code, city",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "NPA localité",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    72.4,
+                    405.8,
+                    299.6,
+                    422.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  530,
+                  547
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  425.2,
+                  124.1,
+                  432.7
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Country",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Pays",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    312.4,
+                    405.8,
+                    539.6,
+                    422.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  548,
+                  555
+                ],
+                "page": 1,
+                "bbox": [
+                  312.7,
+                  425.2,
+                  338.6,
+                  432.7
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date of birth (dd.mm.yyyy)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Date de naissance",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    72.4,
+                    432.5,
+                    299.5,
+                    449.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  556,
+                  582
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  451.8,
+                  158.4,
+                  459.3
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "AHV number / Social security number (756.xxxx.xxxx.xx)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Versichertennr 2",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    312.4,
+                    432.4,
+                    539.6,
+                    449.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  583,
+                  637
+                ],
+                "page": 1,
+                "bbox": [
+                  312.7,
+                  451.8,
+                  491.2,
+                  459.4
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Marital status",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Dropdown2",
+                  "type": "choice",
+                  "page": 1,
+                  "bbox": [
+                    72.4,
+                    459.1,
+                    299.6,
+                    475.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  638,
+                  652
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  478.5,
+                  116.1,
+                  486.1
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Phone no.",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "N de téléphone",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    312.4,
+                    459.2,
+                    539.6,
+                    475.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  653,
+                  662
+                ],
+                "page": 1,
+                "bbox": [
+                  312.7,
+                  478.5,
+                  345.3,
+                  486.1
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Order",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                663,
+                668
+              ],
+              "page": 1,
+              "bbox": [
+                72.7,
+                508.4,
+                93.2,
+                515.9
+              ],
+              "font_size": 7.5,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "I hereby request immediate transfer of my total retirement assets to the below-mentioned account of the Vested Benefits Foundation of UBS AG.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  669,
+                  810
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  525.3,
+                  539.3,
+                  532.9
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "Existing securities should be sold prior to the transfer.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  811,
+                  868
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  533.8,
+                  244.1,
+                  541.3
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Payment instruction",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                869,
+                888
+              ],
+              "page": 1,
+              "bbox": [
+                72.7,
+                550.9,
+                143.8,
+                558.4
+              ],
+              "font_size": 7.5,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "prefilled_value",
+              "text": "UBS Switzerland AG, CH-8098 Zürich",
+              "layout_role": "prefilled_value",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  889,
+                  923
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  565.0,
+                  230.2,
+                  574.9
+                ],
+                "font_size": 9.9,
+                "bold": false
+              }
+            },
+            {
+              "type": "prefilled_value",
+              "text": "CH81 0023 0230 1011 8870 0",
+              "layout_role": "prefilled_value",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  924,
+                  950
+                ],
+                "page": 1,
+                "bbox": [
+                  312.7,
+                  565.0,
+                  443.9,
+                  574.9
+                ],
+                "font_size": 9.9,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Bank",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  951,
+                  955
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  578.0,
+                  88.6,
+                  585.6
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "IBAN",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  956,
+                  960
+                ],
+                "page": 1,
+                "bbox": [
+                  312.7,
+                  578.0,
+                  328.6,
+                  585.6
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "prefilled_value",
+              "text": "Vested Benefits Foundation of UBS AG, CH-4002 Basel",
+              "layout_role": "prefilled_value",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  961,
+                  1012
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  591.9,
+                  303.8,
+                  601.7
+                ],
+                "font_size": 9.9,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Holder",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1013,
+                  1019
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  605.5,
+                  94.0,
+                  613.0
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "The Vested Benefits Foundation of UBS AG confirms that it maintains only 2nd pillar accounts according to the Swiss Federal Law on Occupational\nRetirement, Survivors' and Disability Plans (LPP/BVG).",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1020,
+                  1218
+                ],
+                "page": 1,
+                "bbox": [
+                  72.7,
+                  622.5,
+                  539.3,
+                  630.0
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Signature",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                1220,
+                1229
+              ],
+              "page": 2,
+              "bbox": [
+                72.7,
+                109.4,
+                107.0,
+                116.9
+              ],
+              "font_size": 7.5,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "instruction",
+              "text": "Please send the completed form to your previous pension fund or vested benefits foundation. Please do not send this form to the\nVested Benefits Foundation of UBS AG.",
+              "layout_role": "emphasised_text",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1230,
+                  1395
+                ],
+                "page": 2,
+                "bbox": [
+                  72.7,
+                  126.4,
+                  539.3,
+                  134.0
+                ],
+                "font_size": 7.5,
+                "bold": true
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "If you need a Vested Benefits Account due to a divorce, please ask the judge or your attorney to insert the IBAN (CH81 0023 0230 1011 8870 0)\nof the Vested Benefits Foundation of UBS AG in the divorce decree.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1396,
+                  1604
+                ],
+                "page": 2,
+                "bbox": [
+                  72.7,
+                  143.3,
+                  539.3,
+                  150.8
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Place",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Lieu",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    72.4,
+                    180.9,
+                    219.6,
+                    197.4
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  1605,
+                  1610
+                ],
+                "page": 2,
+                "bbox": [
+                  72.7,
+                  200.2,
+                  89.0,
+                  207.8
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date (dd.mm.yyyy)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Date",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    232.4,
+                    180.8,
+                    299.6,
+                    197.4
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  1611,
+                  1628
+                ],
+                "page": 2,
+                "bbox": [
+                  232.7,
+                  200.2,
+                  292.5,
+                  207.8
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Signature of pension account holder",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Prénom",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    312.0,
+                    211.5,
+                    425.7,
+                    228.1
+                  ],
+                  "label_position": "above"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  1629,
+                  1664
+                ],
+                "page": 2,
+                "bbox": [
+                  312.7,
+                  200.2,
+                  429.3,
+                  207.8
+                ],
+                "font_size": 7.5,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "type": "footnote",
+      "text": "The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.",
+      "layout_role": "footnote",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          1665,
+          1787
+        ],
+        "page": 2,
+        "bbox": [
+          76.5,
+          747.1,
+          389.0,
+          753.2
+        ],
+        "font_size": 6.1,
+        "bold": false
+      }
+    }
+  ],
+  "diagnostics": {
+    "llm_extractions_total": 0,
+    "llm_extractions_accepted": 0,
+    "rejected": [],
+    "dropped_attributes": [],
+    "layout_disagreements": [],
+    "missed_by_llm": [],
+    "unlabelled_fields": [
+      "Text21 (page 1, text)",
+      "Nom (page 2, text)"
+    ],
+    "dropped_noise": [
+      {
+        "page": 1,
+        "text": "62291 E 001 15.03.2024 N1 Page 1/2",
+        "top": 762.8,
+        "reason": "footer"
+      },
+      {
+        "page": 2,
+        "text": "1 chars",
+        "top": null,
+        "reason": "tiny font (barcode)"
+      },
+      {
+        "page": 2,
+        "text": "62291 E 001 15.03.2024 N1 Page 2/2",
+        "top": 762.8,
+        "reason": "footer"
+      }
+    ]
+  },
+  "source_text": "Address of previous pension scheme:\nOrder to transfer retirement assets to the Vested Benefits\nFoundation of UBS AG\nBy using this form you are requesting the transfer of your vested benefits to the Vested Benefits Foundation of UBS AG.\nYour new vested benefits account will only be opened after the vested benefits from your previous pension fund have been transfered and after\nthey have been booked to the account of the Vested Benefits Foundation of UBS AG.\nDetails of pension account holder\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nMarital status\nPhone no.\nOrder\nI hereby request immediate transfer of my total retirement assets to the below-mentioned account of the Vested Benefits Foundation of UBS AG.\nExisting securities should be sold prior to the transfer.\nPayment instruction\nUBS Switzerland AG, CH-8098 Zürich\nCH81 0023 0230 1011 8870 0\nBank\nIBAN\nVested Benefits Foundation of UBS AG, CH-4002 Basel\nHolder\nThe Vested Benefits Foundation of UBS AG confirms that it maintains only 2nd pillar accounts according to the Swiss Federal Law on Occupational\nRetirement, Survivors' and Disability Plans (LPP/BVG).\n\nSignature\nPlease send the completed form to your previous pension fund or vested benefits foundation. Please do not send this form to the\nVested Benefits Foundation of UBS AG.\nIf you need a Vested Benefits Account due to a divorce, please ask the judge or your attorney to insert the IBAN (CH81 0023 0230 1011 8870 0)\nof the Vested Benefits Foundation of UBS AG in the divorce decree.\nPlace\nDate (dd.mm.yyyy)\nSignature of pension account holder\nThe singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders."
+}

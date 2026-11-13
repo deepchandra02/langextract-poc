@@ -1,0 +1,3302 @@
+{
+  "source_file": "payout-vested-benefits-account-en.pdf",
+  "mode": "layout-only",
+  "model_id": null,
+  "page_count": 4,
+  "title": "Payout UBS Vested benefits account",
+  "issuer": [
+    {
+      "type": "issuer",
+      "text": "Vested Benefits Foundation of UBS AG",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          0,
+          36
+        ],
+        "page": 1,
+        "bbox": [
+          399.8,
+          28.9,
+          545.1,
+          36.9
+        ],
+        "font_size": 8.0,
+        "bold": true
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "P.O.Box, CH-8098 Zurich",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          37,
+          60
+        ],
+        "page": 1,
+        "bbox": [
+          399.8,
+          37.8,
+          487.4,
+          45.8
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "Tel. +41-61-226 75 75",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          61,
+          82
+        ],
+        "page": 1,
+        "bbox": [
+          399.8,
+          46.8,
+          477.5,
+          54.8
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "ubs.com/vb",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          83,
+          93
+        ],
+        "page": 1,
+        "bbox": [
+          399.8,
+          65.1,
+          438.9,
+          73.1
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "Vested benefits account",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [
+        {
+          "name": "Text4",
+          "type": "text",
+          "page": 1,
+          "bbox": [
+            399.3,
+            121.1,
+            538.8,
+            133.6
+          ],
+          "label_position": "above"
+        }
+      ],
+      "provenance": {
+        "char_span": [
+          131,
+          154
+        ],
+        "page": 1,
+        "bbox": [
+          399.5,
+          112.2,
+          481.3,
+          120.2
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    }
+  ],
+  "recipient_address": [
+    {
+      "type": "address",
+      "text": "Vested Benefits Foundation of UBS AG",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          94,
+          130
+        ],
+        "page": 1,
+        "bbox": [
+          51.0,
+          113.6,
+          216.0,
+          123.5
+        ],
+        "font_size": 10.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "address",
+      "text": "P.O.Box",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          155,
+          162
+        ],
+        "page": 1,
+        "bbox": [
+          51.0,
+          125.5,
+          87.1,
+          135.5
+        ],
+        "font_size": 10.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "address",
+      "text": "CH-8098 Zurich",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          163,
+          177
+        ],
+        "page": 1,
+        "bbox": [
+          51.0,
+          137.5,
+          118.8,
+          147.5
+        ],
+        "font_size": 10.0,
+        "bold": false
+      }
+    }
+  ],
+  "parts": [
+    {
+      "kind": "form",
+      "title": {
+        "type": "form_title",
+        "text": "Payout UBS Vested benefits account",
+        "layout_role": "title",
+        "llm_class": null,
+        "agreement": "layout_only",
+        "attributes": {},
+        "fields": [],
+        "provenance": {
+          "char_span": [
+            178,
+            212
+          ],
+          "page": 1,
+          "bbox": [
+            51.0,
+            228.7,
+            327.9,
+            246.7
+          ],
+          "font_size": 18.0,
+          "bold": false
+        }
+      },
+      "form_number": "61073",
+      "version_date": "20.03.2026",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "preamble": [],
+      "sections": [
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Personal data of pension account holder",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                213,
+                252
+              ],
+              "page": 1,
+              "bbox": [
+                51.0,
+                272.3,
+                205.3,
+                280.3
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Last name",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Nachname",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    50.6,
+                    286.3,
+                    291.9,
+                    298.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  253,
+                  262
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  301.6,
+                  85.7,
+                  309.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "First name(s)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Vorname",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    305.8,
+                    286.2,
+                    547.1,
+                    298.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  263,
+                  276
+                ],
+                "page": 1,
+                "bbox": [
+                  306.0,
+                  301.6,
+                  348.7,
+                  309.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Street, no.",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Strasse Nr",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    50.7,
+                    313.3,
+                    292.0,
+                    325.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  277,
+                  288
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  328.6,
+                  86.5,
+                  336.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Postal code, city (principle place of residence)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "PLZ Ort",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    305.7,
+                    313.2,
+                    547.1,
+                    325.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  289,
+                  337
+                ],
+                "page": 1,
+                "bbox": [
+                  306.0,
+                  328.6,
+                  459.7,
+                  336.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date of birth (dd.mm.yyyy)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Geburtsdatum_af_date",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    50.7,
+                    340.3,
+                    292.1,
+                    352.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  338,
+                  364
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  355.6,
+                  142.1,
+                  363.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "AHV number / Social security number (756.xxxx.xxxx.xx)",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "AHV",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    305.7,
+                    340.2,
+                    547.2,
+                    352.5
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  365,
+                  419
+                ],
+                "page": 1,
+                "bbox": [
+                  307.4,
+                  354.2,
+                  497.1,
+                  362.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Marital status",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Dropdown2",
+                  "type": "choice",
+                  "page": 1,
+                  "bbox": [
+                    50.8,
+                    367.2,
+                    292.2,
+                    379.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  420,
+                  434
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  382.6,
+                  97.2,
+                  390.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Phone no.",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Telefon",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    305.7,
+                    367.3,
+                    547.3,
+                    379.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  435,
+                  444
+                ],
+                "page": 1,
+                "bbox": [
+                  306.0,
+                  382.6,
+                  340.7,
+                  390.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Date of payment",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                445,
+                460
+              ],
+              "page": 1,
+              "bbox": [
+                51.0,
+                410.8,
+                114.6,
+                418.8
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "Please note that after receipt the processing time may be up to 20 working days.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  461,
+                  541
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  428.8,
+                  326.5,
+                  436.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date of payment",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Date4_af_date",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    125.3,
+                    440.8,
+                    197.1,
+                    453.2
+                  ],
+                  "label_position": "left"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  542,
+                  557
+                ],
+                "page": 1,
+                "bbox": [
+                  65.2,
+                  445.7,
+                  122.5,
+                  453.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "(max. three months in advance)",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  558,
+                  588
+                ],
+                "page": 1,
+                "bbox": [
+                  196.7,
+                  445.7,
+                  304.2,
+                  453.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Must be attached in all cases:",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                589,
+                619
+              ],
+              "page": 1,
+              "bbox": [
+                51.0,
+                477.5,
+                161.2,
+                485.5
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "list_item",
+              "text": "– if marital status is single, divorced or widowed: copy of civil status certificate (not older than three months)",
+              "layout_role": "list_item",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  620,
+                  734
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  492.7,
+                  447.2,
+                  500.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "list_item",
+              "text": "– if marital status is married or a registered partnership: copy of marriage certificate (or family record booklet) or partnership certificate\nCopy of an official, signed identity document of the pension account holder",
+              "layout_role": "list_item",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  735,
+                  953
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  501.7,
+                  538.8,
+                  509.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "list_item",
+              "text": "– Copy of an official, signed identity document of the of spouse/registered partner",
+              "layout_role": "list_item",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  954,
+                  1037
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  519.7,
+                  339.8,
+                  527.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Reason for payout (specifying the documents that must be submitted)",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                1038,
+                1105
+              ],
+              "page": 1,
+              "bbox": [
+                51.0,
+                558.7,
+                296.3,
+                566.8
+              ],
+              "font_size": 8.0,
+              "bold": false
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "The documents submitted will not be returned. Copies are accepted. Documents in foreign languages must be submitted with a certified transla-\ntion into German, French, Italian or English.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1106,
+                  1293
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  576.2,
+                  545.1,
+                  584.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "If the retirement assets are pledged, the pledgee (e. g., the bank) must cancel the pledge (pledge release). A copy of the pledge release must be\nsubmitted.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1294,
+                  1450
+                ],
+                "page": 1,
+                "bbox": [
+                  51.0,
+                  603.2,
+                  541.1,
+                  611.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": [
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "On reaching 60 years of age",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "Erreichen Alter ab Alter 59 für Frauen bzw ab Alter 60 für Männer",
+                    "type": "checkbox",
+                    "page": 1,
+                    "bbox": [
+                      50.9,
+                      630.0,
+                      59.8,
+                      639.1
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    1451,
+                    1478
+                  ],
+                  "page": 1,
+                  "bbox": [
+                    65.2,
+                    632.7,
+                    170.5,
+                    640.7
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [],
+              "subsections": []
+            },
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Definitive emigration from Switzerland",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "Endgültiges Verlassen der Schweiz",
+                    "type": "checkbox",
+                    "page": 1,
+                    "bbox": [
+                      50.9,
+                      647.0,
+                      59.9,
+                      656.0
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    1479,
+                    1517
+                  ],
+                  "page": 1,
+                  "bbox": [
+                    65.2,
+                    649.6,
+                    213.2,
+                    657.6
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "paragraph",
+                  "text": "Condition: Neither working nor living in Switzerland.",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      1518,
+                      1571
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      65.2,
+                      658.6,
+                      244.7,
+                      666.6
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Earliest possible payout is one month prior to departure from Switzerland.",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      1572,
+                      1646
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      65.2,
+                      667.6,
+                      317.1,
+                      675.6
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–Enclose copy of official certificate of departure from communal registration office with indication of place of destination\n(date of deregistration not older than one year)",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      1647,
+                      1820
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      79.3,
+                      685.8,
+                      494.3,
+                      693.8
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "connector",
+                  "text": "or",
+                  "layout_role": "connector",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      1821,
+                      1823
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      86.0,
+                      703.8,
+                      94.0,
+                      711.8
+                    ],
+                    "font_size": 8.0,
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "paragraph",
+                  "text": "enclose copy of confirmation of residency abroad (issue date not older than three months)",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      1824,
+                      1913
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      86.0,
+                      712.8,
+                      393.5,
+                      720.8
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–I no longer work or live in Switzerland.",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      1914,
+                      1955
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      79.3,
+                      731.3,
+                      217.1,
+                      739.3
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "checkbox_option",
+                  "text": "Yes",
+                  "layout_role": "choice",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Ja",
+                      "type": "checkbox",
+                      "page": 1,
+                      "bbox": [
+                        305.8,
+                        728.6,
+                        314.8,
+                        737.6
+                      ],
+                      "label_position": "right"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      1956,
+                      1959
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      320.1,
+                      731.1,
+                      332.1,
+                      739.1
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "checkbox_option",
+                  "text": "No (payout not possible)",
+                  "layout_role": "choice",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Nein Auszahlung nicht möglich",
+                      "type": "checkbox",
+                      "page": 1,
+                      "bbox": [
+                        305.7,
+                        746.2,
+                        315.3,
+                        755.2
+                      ],
+                      "label_position": "right"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      1960,
+                      1984
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      320.8,
+                      748.7,
+                      403.9,
+                      756.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "field_label",
+                  "text": "–Future country of domicile:",
+                  "layout_role": "field_label",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Zukünftiges Domizilland",
+                      "type": "text",
+                      "page": 1,
+                      "bbox": [
+                        187.4,
+                        761.0,
+                        479.7,
+                        773.3
+                      ],
+                      "label_position": "left"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      1985,
+                      2013
+                    ],
+                    "page": 1,
+                    "bbox": [
+                      80.1,
+                      764.4,
+                      178.3,
+                      772.4
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Cross-border commuters: Definitive termination of employment in Switzerland",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "Grenzgänger Endgültige Erwerbsaufgabe in der Schweiz",
+                    "type": "checkbox",
+                    "page": 2,
+                    "bbox": [
+                      50.4,
+                      87.2,
+                      60.2,
+                      96.7
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    2015,
+                    2090
+                  ],
+                  "page": 2,
+                  "bbox": [
+                    65.2,
+                    89.6,
+                    361.6,
+                    97.6
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "paragraph",
+                  "text": "Condition: Neither working nor living in Switzerland.",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2091,
+                      2144
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      65.2,
+                      98.5,
+                      244.7,
+                      106.5
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–Enclose copy of expired cross-border commuter permit",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2145,
+                      2198
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      116.4,
+                      271.7,
+                      124.4
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–I no longer work or live in Switzerland.",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2199,
+                      2240
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      134.4,
+                      217.1,
+                      142.4
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "checkbox_option",
+                  "text": "Yes",
+                  "layout_role": "choice",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Ja_2",
+                      "type": "checkbox",
+                      "page": 2,
+                      "bbox": [
+                        305.9,
+                        133.9,
+                        314.9,
+                        142.9
+                      ],
+                      "label_position": "right"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      2241,
+                      2244
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      320.3,
+                      134.7,
+                      332.3,
+                      142.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "checkbox_option",
+                  "text": "No (payout not possible)",
+                  "layout_role": "choice",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Nein Auszahlung nicht möglich_2",
+                      "type": "checkbox",
+                      "page": 2,
+                      "bbox": [
+                        306.1,
+                        148.9,
+                        315.1,
+                        157.9
+                      ],
+                      "label_position": "right"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      2245,
+                      2269
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      321.0,
+                      150.7,
+                      404.1,
+                      158.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "field_label",
+                  "text": "–Current country of",
+                  "layout_role": "field_label",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Aktuelles Domizilland",
+                      "type": "text",
+                      "page": 2,
+                      "bbox": [
+                        187.4,
+                        164.4,
+                        479.7,
+                        176.8
+                      ],
+                      "label_position": "left"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      2270,
+                      2289
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      167.9,
+                      149.1,
+                      175.9
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Disability",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "Invalidität",
+                    "type": "checkbox",
+                    "page": 2,
+                    "bbox": [
+                      50.8,
+                      194.8,
+                      59.8,
+                      204.0
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    2290,
+                    2300
+                  ],
+                  "page": 2,
+                  "bbox": [
+                    65.2,
+                    197.5,
+                    100.3,
+                    205.5
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "paragraph",
+                  "text": "Condition: Recipient of a full disability pension from Federal Disability Insurance (AI/IV).",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2301,
+                      2393
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      65.2,
+                      206.5,
+                      360.6,
+                      214.5
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–Enclose copy of current decree from AI/IV (not older than one year)",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2394,
+                      2462
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      224.4,
+                      313.9,
+                      232.4
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "connector",
+                  "text": "or",
+                  "layout_role": "connector",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2463,
+                      2465
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      86.0,
+                      233.4,
+                      94.0,
+                      241.4
+                    ],
+                    "font_size": 8.0,
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–a copy of the decree from the AI/IV (not older than five years) plus a current confirmation from the AI/IV (not older than three months)\nthat states that all information in the decree is still true.",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2466,
+                      2665
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      242.4,
+                      545.0,
+                      250.4
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Start of self-employment in Switzerland",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "Aufnahme einer selbstständigen oder andersartigen selbstständigen Erwerbstätigkeit in der Schweiz",
+                    "type": "checkbox",
+                    "page": 2,
+                    "bbox": [
+                      50.8,
+                      269.2,
+                      59.8,
+                      278.2
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    2666,
+                    2705
+                  ],
+                  "page": 2,
+                  "bbox": [
+                    65.2,
+                    272.0,
+                    215.8,
+                    280.0
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "paragraph",
+                  "text": "Condition: Payout only possible within a year of assuming self-employed status as main occupation. Sole proprietorships and partnerships are\naccepted legal forms for the payout, but Ltd. (GmbH) or stock companies are not.",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2706,
+                      2927
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      65.2,
+                      280.9,
+                      546.4,
+                      288.9
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–Enclose copy of admission confirmation from the AHV compensation fund",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      2928,
+                      2998
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      307.9,
+                      338.4,
+                      315.9
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "field_label",
+                  "text": "–Self-employed as main occupation since:",
+                  "layout_role": "field_label",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Date1_af_date",
+                      "type": "text",
+                      "page": 2,
+                      "bbox": [
+                        247.0,
+                        322.5,
+                        309.8,
+                        334.7
+                      ],
+                      "label_position": "left"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      2999,
+                      3039
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      325.8,
+                      223.7,
+                      333.8
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "field_label",
+                  "text": "–Self-employed as secondary occupation since:",
+                  "layout_role": "field_label",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Date2_af_date",
+                      "type": "text",
+                      "page": 2,
+                      "bbox": [
+                        247.0,
+                        340.5,
+                        309.9,
+                        352.6
+                      ],
+                      "label_position": "left"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      3040,
+                      3085
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      343.7,
+                      241.1,
+                      351.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "paragraph",
+                  "text": "(payout not possible if exclusively as secondary occupation)",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      3086,
+                      3146
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      312.2,
+                      343.7,
+                      513.0,
+                      351.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Vested benefits assets at the last pension fund are lower than personal pension contributions per year",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "L'avoir de libre passage auprès de la dernière caisse de pension est inférieur au montant annuel des cotisations du salarié",
+                    "type": "checkbox",
+                    "page": 2,
+                    "bbox": [
+                      50.6,
+                      370.7,
+                      59.6,
+                      379.8
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    3147,
+                    3249
+                  ],
+                  "page": 2,
+                  "bbox": [
+                    65.2,
+                    373.3,
+                    450.9,
+                    381.3
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "paragraph",
+                  "text": "Condition: Currently not member of a pension fund.",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      3250,
+                      3300
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      65.2,
+                      382.3,
+                      244.3,
+                      390.3
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–Enclose a copy of the latest pension certificate",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      3301,
+                      3350
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      400.2,
+                      242.8,
+                      408.2
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "list_item",
+                  "text": "–I am currently a member of a pension fund:",
+                  "layout_role": "list_item",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      3351,
+                      3394
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      79.3,
+                      418.1,
+                      234.0,
+                      426.1
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "checkbox_option",
+                  "text": "Yes (payout not possible)",
+                  "layout_role": "choice",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Ja_3",
+                      "type": "checkbox",
+                      "page": 2,
+                      "bbox": [
+                        305.7,
+                        417.8,
+                        314.7,
+                        426.8
+                      ],
+                      "label_position": "right"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      3395,
+                      3420
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      320.1,
+                      418.7,
+                      405.4,
+                      426.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                },
+                {
+                  "type": "checkbox_option",
+                  "text": "No",
+                  "layout_role": "choice",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "Nein Auszahlung nicht möglich_3",
+                      "type": "checkbox",
+                      "page": 2,
+                      "bbox": [
+                        305.9,
+                        432.9,
+                        314.9,
+                        441.9
+                      ],
+                      "label_position": "right"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      3421,
+                      3423
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      320.8,
+                      434.7,
+                      330.6,
+                      442.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "UBS Vitainvest Funds",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                3424,
+                3444
+              ],
+              "page": 2,
+              "bbox": [
+                51.0,
+                464.4,
+                130.5,
+                472.4
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [],
+          "subsections": [
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Transfer UBS Vitainvest Funds",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "UBS CH Vitainvest Anlagefonds übertragen",
+                    "type": "checkbox",
+                    "page": 2,
+                    "bbox": [
+                      50.7,
+                      479.3,
+                      59.7,
+                      488.3
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    3445,
+                    3474
+                  ],
+                  "page": 2,
+                  "bbox": [
+                    65.3,
+                    482.0,
+                    178.2,
+                    490.0
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "field_label",
+                  "text": "To the UBS custody account with no.",
+                  "layout_role": "field_label",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [
+                    {
+                      "name": "in das UBSWertschriftendepot mit IBAN",
+                      "type": "text",
+                      "page": 2,
+                      "bbox": [
+                        197.1,
+                        499.8,
+                        418.6,
+                        510.1
+                      ],
+                      "label_position": "left"
+                    }
+                  ],
+                  "provenance": {
+                    "char_span": [
+                      3475,
+                      3510
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      65.3,
+                      499.9,
+                      191.5,
+                      507.9
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": {
+                "type": "subsection_title",
+                "text": "Sell UBS Vitainvest Funds",
+                "layout_role": "option_heading",
+                "llm_class": null,
+                "agreement": "layout_only",
+                "attributes": {},
+                "fields": [
+                  {
+                    "name": "UBS CH Vitainvest Anlagefonds verkaufen",
+                    "type": "checkbox",
+                    "page": 2,
+                    "bbox": [
+                      50.7,
+                      515.1,
+                      59.7,
+                      524.1
+                    ],
+                    "label_position": "right"
+                  }
+                ],
+                "provenance": {
+                  "char_span": [
+                    3511,
+                    3536
+                  ],
+                  "page": 2,
+                  "bbox": [
+                    65.3,
+                    517.8,
+                    160.4,
+                    525.8
+                  ],
+                  "font_size": 8.0,
+                  "bold": true
+                }
+              },
+              "level": 2,
+              "items": [
+                {
+                  "type": "paragraph",
+                  "text": "UBS Vitainvest Funds will be sold in the required amount by the payout date. A separate securities order is required using the appropriate\nform if the UBS Vitainvest Funds should be sold immediately, i. e., prior to the payout date.",
+                  "layout_role": "paragraph",
+                  "llm_class": null,
+                  "agreement": "layout_only",
+                  "attributes": {},
+                  "fields": [],
+                  "provenance": {
+                    "char_span": [
+                      3537,
+                      3769
+                    ],
+                    "page": 2,
+                    "bbox": [
+                      65.3,
+                      535.7,
+                      532.8,
+                      543.7
+                    ],
+                    "font_size": 8.0,
+                    "bold": false
+                  }
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "UBS AST 4 Mixta investment groups",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                3770,
+                3803
+              ],
+              "page": 2,
+              "bbox": [
+                51.0,
+                574.2,
+                186.5,
+                582.2
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "Units in the UBS AST 4 Mixta investment groups will be sold in the required amount by the payout date. A separate securities order is required if\nthe UBS AST 4 Mixta investment groups should be sold immediately, i. e., prior to the payout date.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  3804,
+                  4048
+                ],
+                "page": 2,
+                "bbox": [
+                  51.0,
+                  590.8,
+                  542.5,
+                  598.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Payment instruction (please specify exclusively an account in your name)",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                4049,
+                4121
+              ],
+              "page": 2,
+              "bbox": [
+                51.0,
+                630.1,
+                304.3,
+                638.2
+              ],
+              "font_size": 8.0,
+              "bold": false
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Bank name",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Name der Bank",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    110.4,
+                    644.0,
+                    331.9,
+                    656.5
+                  ],
+                  "label_position": "left"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4122,
+                  4131
+                ],
+                "page": 2,
+                "bbox": [
+                  65.2,
+                  647.6,
+                  103.4,
+                  655.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "IBAN",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "IBAN",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    110.3,
+                    661.9,
+                    331.8,
+                    674.4
+                  ],
+                  "label_position": "left"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4132,
+                  4136
+                ],
+                "page": 2,
+                "bbox": [
+                  65.2,
+                  665.5,
+                  82.1,
+                  673.5
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Holder",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Lautend auf",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    110.5,
+                    679.9,
+                    331.9,
+                    692.3
+                  ],
+                  "label_position": "left"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4137,
+                  4143
+                ],
+                "page": 2,
+                "bbox": [
+                  65.2,
+                  683.4,
+                  87.8,
+                  691.4
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "For transfers to a foreign bank please enclose detailed payment instructions (IBAN or SWIFT). The transfer will be made in Swiss francs (CHF).",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  4144,
+                  4286
+                ],
+                "page": 2,
+                "bbox": [
+                  51.0,
+                  701.9,
+                  530.0,
+                  709.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "The pension account holder",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                4288,
+                4314
+              ],
+              "page": 3,
+              "bbox": [
+                51.0,
+                88.1,
+                155.0,
+                96.1
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "list_item",
+              "text": "– confirms hereby that the application and the documentation provided are correct and complete;",
+              "layout_role": "list_item",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  4315,
+                  4410
+                ],
+                "page": 3,
+                "bbox": [
+                  51.0,
+                  105.5,
+                  393.1,
+                  113.5
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "list_item",
+              "text": "– authorizes the Vested Benefits Foundation of UBS AG to make any other enquiries that may be necessary;",
+              "layout_role": "list_item",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  4411,
+                  4515
+                ],
+                "page": 3,
+                "bbox": [
+                  51.0,
+                  114.5,
+                  425.5,
+                  122.5
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "list_item",
+              "text": "– is in agreement with the conditions outlined in the information sheet \"Payout UBS vested benefits account\".",
+              "layout_role": "list_item",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  4516,
+                  4625
+                ],
+                "page": 3,
+                "bbox": [
+                  51.0,
+                  123.5,
+                  435.3,
+                  131.5
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Place",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Ort",
+                  "type": "text",
+                  "page": 3,
+                  "bbox": [
+                    50.8,
+                    186.9,
+                    207.2,
+                    199.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4626,
+                  4631
+                ],
+                "page": 3,
+                "bbox": [
+                  51.0,
+                  202.7,
+                  68.3,
+                  210.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Date5_af_date",
+                  "type": "text",
+                  "page": 3,
+                  "bbox": [
+                    219.4,
+                    186.9,
+                    290.7,
+                    199.4
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4632,
+                  4636
+                ],
+                "page": 3,
+                "bbox": [
+                  219.6,
+                  202.7,
+                  235.6,
+                  210.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Signature of pension account holder",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Vorname",
+                  "type": "text",
+                  "page": 3,
+                  "bbox": [
+                    304.3,
+                    211.8,
+                    425.3,
+                    224.2
+                  ],
+                  "label_position": "above"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4637,
+                  4672
+                ],
+                "page": 3,
+                "bbox": [
+                  304.6,
+                  202.7,
+                  428.6,
+                  210.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Place",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Ort_2",
+                  "type": "text",
+                  "page": 3,
+                  "bbox": [
+                    50.8,
+                    304.7,
+                    207.2,
+                    317.2
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4673,
+                  4678
+                ],
+                "page": 3,
+                "bbox": [
+                  51.0,
+                  320.7,
+                  68.3,
+                  328.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date",
+              "layout_role": "field_label",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Date6_af_date",
+                  "type": "text",
+                  "page": 3,
+                  "bbox": [
+                    219.3,
+                    304.8,
+                    290.7,
+                    317.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  4679,
+                  4683
+                ],
+                "page": 3,
+                "bbox": [
+                  219.6,
+                  320.7,
+                  235.6,
+                  328.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "Signature of spouse / registered partner",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  4684,
+                  4724
+                ],
+                "page": 3,
+                "bbox": [
+                  304.6,
+                  320.7,
+                  439.7,
+                  328.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "kind": "attachment",
+      "title": {
+        "type": "form_title",
+        "text": "Information sheet \"Payout UBS vested benefits account\"",
+        "layout_role": "attachment_title",
+        "llm_class": null,
+        "agreement": "layout_only",
+        "attributes": {},
+        "fields": [],
+        "provenance": {
+          "char_span": [
+            4849,
+            4903
+          ],
+          "page": 4,
+          "bbox": [
+            49.6,
+            85.3,
+            484.5,
+            103.3
+          ],
+          "font_size": 18.0,
+          "bold": false
+        }
+      },
+      "form_number": "63652",
+      "version_date": "19.09.2025",
+      "pages": [
+        4
+      ],
+      "preamble": [],
+      "sections": [
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Tax considerations",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                4904,
+                4922
+              ],
+              "page": 4,
+              "bbox": [
+                49.6,
+                128.8,
+                119.8,
+                136.8
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "Pursuant to the Swiss federal law on withholding tax, art. 8 para. 1 lit. a), when payouts such as cash payouts in excess of CHF 5,000 are made\nby the Vested Benefits Foundation of UBS AG, the amounts are subject to either taxation or disclosure.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  4923,
+                  5169
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  146.8,
+                  545.4,
+                  154.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "If the pension account holder lives abroad or will leave Switzerland within a short time, a withholding taxes shall be levied. If the Foundation has\nno consistent information about the domicile (e.g., P.O. Box or c/o-address) a withholding tax will be levied as well.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  5170,
+                  5437
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  173.8,
+                  545.4,
+                  181.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "The Vested Benefits Foundation shall deduct these taxes directly from the UBS vested benefits account before paying out the pension bene-\nfits. The transferred net amount may therefore differ from the originally requested amount.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  5438,
+                  5667
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  200.7,
+                  545.3,
+                  208.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "If the person can prove, before the payout, that the taxes on the capital concerned have already been paid in Switzerland, no withholding tax\nwill be applied.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  5668,
+                  5826
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  227.7,
+                  545.4,
+                  235.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Blocked amounts resulting from pension fund buy-ins",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                5827,
+                5878
+              ],
+              "page": 4,
+              "bbox": [
+                49.6,
+                268.4,
+                251.7,
+                276.4
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "If any purchases to a pension fund have been made, art. 79b para. 3 of the Swiss Federal Law on Occupational Retirement, Survivors' and\nDisability Pension Plans (LPP/BVG) states that the resultant benefits may not be withdrawn as a lump sum for the three years following the buy-\nin. The foundation reserves the right to withhold the payment of the blocked amount if it becomes aware of a corresponding purchase in the\nlast three years.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  5879,
+                  6315
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  286.5,
+                  529.9,
+                  294.4
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "Furthermore, according to the Federal Supreme Court, the request of payout for a period of three years following the purchase may result in\na tax deduction rejection or even in a tax deduction reversal. In all cases, the responsibility for the tax situation lies with the pension account\nholder.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  6316,
+                  6611
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  331.4,
+                  538.7,
+                  339.4
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Definitive emigration from Switzerland",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                6612,
+                6650
+              ],
+              "page": 4,
+              "bbox": [
+                49.6,
+                371.2,
+                197.6,
+                379.2
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "Since 1 June 2007, the agreement on the free movement of persons between Switzerland and the EU has placed restrictions on the the with-\ndrawal as a result of emigration from Switzerland. This applies to pension account holders who move definitively to an EU country or an EFTA\ncountry (specifically Iceland and Norway).",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  6651,
+                  6971
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  389.2,
+                  545.4,
+                  397.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "As a result of this agreement, pension account holders may only request the mandatory component of their vested pension benefits if they prove\nthat they are not subject to mandatory social security obligations in the destination country.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  6972,
+                  7209
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  425.2,
+                  545.4,
+                  433.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "The application form for this certificate can be obtained as follows:",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  7210,
+                  7279
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  452.1,
+                  277.5,
+                  460.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "sfbvg.ch: cash payment after emigration or by postal mail: LOB Guarantee Fund, Eigerplatz 2, P.O. Box 1023, 3000 Bern 14. It should be noted\nthat this clarification process could take six months or more.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  7280,
+                  7483
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  461.1,
+                  545.4,
+                  469.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "The written confirmation from the LOB Guarantee Fund (date of issue cannot be older than 3 months) must be delivered to the Vested Benefits\nFoundation of UBS AG. If this confirmation is not submitted, only the non-mandatory part of LOB assets can be withdrawn.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  7484,
+                  7744
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  488.1,
+                  545.4,
+                  496.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "If an existing mandatory social security obligation exists in an EU or EFTA state, withdrawal of the obligatory part is possible five years prior to\nreaching the legal AHV retirement age at the earliest.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  7745,
+                  7948
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  515.1,
+                  545.4,
+                  523.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Reaching age",
+            "layout_role": "section_heading",
+            "llm_class": null,
+            "agreement": "layout_only",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                7949,
+                7961
+              ],
+              "page": 4,
+              "bbox": [
+                49.6,
+                549.8,
+                99.8,
+                557.8
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "paragraph",
+              "text": "In accordance with Art. 16, para. 1 OLP/FZV the pension assets can be paid out to the pension account holder at the earliest five years before at-\ntainment of normal AVS/AHV retirement age.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  7962,
+                  8151
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  567.8,
+                  545.4,
+                  575.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "Without giving reasons the pension account holder can also maintain the vested benefits account to the latest five years after attainment of AVS/\nAHV retirement age and then ask for the payout.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  8152,
+                  8345
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  594.8,
+                  545.4,
+                  602.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "The vested benefits are no longer subject to interest accrual having the pension account holders reached this limit of age.",
+              "layout_role": "paragraph",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  8346,
+                  8469
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  621.8,
+                  462.8,
+                  629.8
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "instruction",
+              "text": "Regulatory and legal provisions apply.",
+              "layout_role": "emphasised_text",
+              "llm_class": null,
+              "agreement": "layout_only",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  8470,
+                  8508
+                ],
+                "page": 4,
+                "bbox": [
+                  49.6,
+                  670.5,
+                  194.0,
+                  678.5
+                ],
+                "font_size": 8.0,
+                "bold": true
+              }
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "type": "footnote",
+      "text": "The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.",
+      "layout_role": "footnote",
+      "llm_class": null,
+      "agreement": "layout_only",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          4725,
+          4847
+        ],
+        "page": 3,
+        "bbox": [
+          51.0,
+          780.4,
+          462.6,
+          788.5
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    }
+  ],
+  "diagnostics": {
+    "llm_extractions_total": 0,
+    "llm_extractions_accepted": 0,
+    "rejected": [],
+    "dropped_attributes": [],
+    "layout_disagreements": [],
+    "missed_by_llm": [],
+    "unlabelled_fields": [
+      "Text4 (page 2, text)",
+      "Text4 (page 3, text)",
+      "Nachname (page 3, text)"
+    ],
+    "dropped_noise": [
+      {
+        "page": 1,
+        "text": "–",
+        "top": 528.7,
+        "reason": "orphan bullet glyph"
+      },
+      {
+        "page": 1,
+        "text": "61073 E 001 20 .0 3 .202 6 N6 One copy for each party Page 1/3",
+        "top": 798.7,
+        "reason": "footer"
+      },
+      {
+        "page": 2,
+        "text": "Vested Benefits Foundation of UBS AG",
+        "top": 28.9,
+        "reason": "running header"
+      },
+      {
+        "page": 2,
+        "text": "Vested benefits account",
+        "top": 46.8,
+        "reason": "running header"
+      },
+      {
+        "page": 2,
+        "text": "61073 E 001 20 .0 3 .202 6 N6 One copy for each party Page 2/3",
+        "top": 798.7,
+        "reason": "footer"
+      },
+      {
+        "page": 3,
+        "text": "Vested Benefits Foundation of UBS AG",
+        "top": 28.9,
+        "reason": "running header"
+      },
+      {
+        "page": 3,
+        "text": "Vested benefits account",
+        "top": 46.8,
+        "reason": "running header"
+      },
+      {
+        "page": 3,
+        "text": "61073 E 001 20 .0 3 .202 6 N6 One copy for each party Page 3/3",
+        "top": 798.7,
+        "reason": "footer"
+      },
+      {
+        "page": 4,
+        "text": "63652 E 001 1 9 .0 9 .2025 N2 Copy for the pension account holder Page 1/1",
+        "top": 790.7,
+        "reason": "footer"
+      }
+    ]
+  },
+  "source_text": "Vested Benefits Foundation of UBS AG\nP.O.Box, CH-8098 Zurich\nTel. +41-61-226 75 75\nubs.com/vb\nVested Benefits Foundation of UBS AG\nVested benefits account\nP.O.Box\nCH-8098 Zurich\nPayout UBS Vested benefits account\nPersonal data of pension account holder\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city (principle place of residence)\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nMarital status\nPhone no.\nDate of payment\nPlease note that after receipt the processing time may be up to 20 working days.\nDate of payment\n(max. three months in advance)\nMust be attached in all cases:\n– if marital status is single, divorced or widowed: copy of civil status certificate (not older than three months)\n– if marital status is married or a registered partnership: copy of marriage certificate (or family record booklet) or partnership certificate\nCopy of an official, signed identity document of the pension account holder\n– Copy of an official, signed identity document of the of spouse/registered partner\nReason for payout (specifying the documents that must be submitted)\nThe documents submitted will not be returned. Copies are accepted. Documents in foreign languages must be submitted with a certified transla-\ntion into German, French, Italian or English.\nIf the retirement assets are pledged, the pledgee (e. g., the bank) must cancel the pledge (pledge release). A copy of the pledge release must be\nsubmitted.\nOn reaching 60 years of age\nDefinitive emigration from Switzerland\nCondition: Neither working nor living in Switzerland.\nEarliest possible payout is one month prior to departure from Switzerland.\n–Enclose copy of official certificate of departure from communal registration office with indication of place of destination\n(date of deregistration not older than one year)\nor\nenclose copy of confirmation of residency abroad (issue date not older than three months)\n–I no longer work or live in Switzerland.\nYes\nNo (payout not possible)\n–Future country of domicile:\n\nCross-border commuters: Definitive termination of employment in Switzerland\nCondition: Neither working nor living in Switzerland.\n–Enclose copy of expired cross-border commuter permit\n–I no longer work or live in Switzerland.\nYes\nNo (payout not possible)\n–Current country of\nDisability\nCondition: Recipient of a full disability pension from Federal Disability Insurance (AI/IV).\n–Enclose copy of current decree from AI/IV (not older than one year)\nor\n–a copy of the decree from the AI/IV (not older than five years) plus a current confirmation from the AI/IV (not older than three months)\nthat states that all information in the decree is still true.\nStart of self-employment in Switzerland\nCondition: Payout only possible within a year of assuming self-employed status as main occupation. Sole proprietorships and partnerships are\naccepted legal forms for the payout, but Ltd. (GmbH) or stock companies are not.\n–Enclose copy of admission confirmation from the AHV compensation fund\n–Self-employed as main occupation since:\n–Self-employed as secondary occupation since:\n(payout not possible if exclusively as secondary occupation)\nVested benefits assets at the last pension fund are lower than personal pension contributions per year\nCondition: Currently not member of a pension fund.\n–Enclose a copy of the latest pension certificate\n–I am currently a member of a pension fund:\nYes (payout not possible)\nNo\nUBS Vitainvest Funds\nTransfer UBS Vitainvest Funds\nTo the UBS custody account with no.\nSell UBS Vitainvest Funds\nUBS Vitainvest Funds will be sold in the required amount by the payout date. A separate securities order is required using the appropriate\nform if the UBS Vitainvest Funds should be sold immediately, i. e., prior to the payout date.\nUBS AST 4 Mixta investment groups\nUnits in the UBS AST 4 Mixta investment groups will be sold in the required amount by the payout date. A separate securities order is required if\nthe UBS AST 4 Mixta investment groups should be sold immediately, i. e., prior to the payout date.\nPayment instruction (please specify exclusively an account in your name)\nBank name\nIBAN\nHolder\nFor transfers to a foreign bank please enclose detailed payment instructions (IBAN or SWIFT). The transfer will be made in Swiss francs (CHF).\n\nThe pension account holder\n– confirms hereby that the application and the documentation provided are correct and complete;\n– authorizes the Vested Benefits Foundation of UBS AG to make any other enquiries that may be necessary;\n– is in agreement with the conditions outlined in the information sheet \"Payout UBS vested benefits account\".\nPlace\nDate\nSignature of pension account holder\nPlace\nDate\nSignature of spouse / registered partner\nThe singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.\n\nInformation sheet \"Payout UBS vested benefits account\"\nTax considerations\nPursuant to the Swiss federal law on withholding tax, art. 8 para. 1 lit. a), when payouts such as cash payouts in excess of CHF 5,000 are made\nby the Vested Benefits Foundation of UBS AG, the amounts are subject to either taxation or disclosure.\nIf the pension account holder lives abroad or will leave Switzerland within a short time, a withholding taxes shall be levied. If the Foundation has\nno consistent information about the domicile (e.g., P.O. Box or c/o-address) a withholding tax will be levied as well.\nThe Vested Benefits Foundation shall deduct these taxes directly from the UBS vested benefits account before paying out the pension bene-\nfits. The transferred net amount may therefore differ from the originally requested amount.\nIf the person can prove, before the payout, that the taxes on the capital concerned have already been paid in Switzerland, no withholding tax\nwill be applied.\nBlocked amounts resulting from pension fund buy-ins\nIf any purchases to a pension fund have been made, art. 79b para. 3 of the Swiss Federal Law on Occupational Retirement, Survivors' and\nDisability Pension Plans (LPP/BVG) states that the resultant benefits may not be withdrawn as a lump sum for the three years following the buy-\nin. The foundation reserves the right to withhold the payment of the blocked amount if it becomes aware of a corresponding purchase in the\nlast three years.\nFurthermore, according to the Federal Supreme Court, the request of payout for a period of three years following the purchase may result in\na tax deduction rejection or even in a tax deduction reversal. In all cases, the responsibility for the tax situation lies with the pension account\nholder.\nDefinitive emigration from Switzerland\nSince 1 June 2007, the agreement on the free movement of persons between Switzerland and the EU has placed restrictions on the the with-\ndrawal as a result of emigration from Switzerland. This applies to pension account holders who move definitively to an EU country or an EFTA\ncountry (specifically Iceland and Norway).\nAs a result of this agreement, pension account holders may only request the mandatory component of their vested pension benefits if they prove\nthat they are not subject to mandatory social security obligations in the destination country.\nThe application form for this certificate can be obtained as follows:\nsfbvg.ch: cash payment after emigration or by postal mail: LOB Guarantee Fund, Eigerplatz 2, P.O. Box 1023, 3000 Bern 14. It should be noted\nthat this clarification process could take six months or more.\nThe written confirmation from the LOB Guarantee Fund (date of issue cannot be older than 3 months) must be delivered to the Vested Benefits\nFoundation of UBS AG. If this confirmation is not submitted, only the non-mandatory part of LOB assets can be withdrawn.\nIf an existing mandatory social security obligation exists in an EU or EFTA state, withdrawal of the obligatory part is possible five years prior to\nreaching the legal AHV retirement age at the earliest.\nReaching age\nIn accordance with Art. 16, para. 1 OLP/FZV the pension assets can be paid out to the pension account holder at the earliest five years before at-\ntainment of normal AVS/AHV retirement age.\nWithout giving reasons the pension account holder can also maintain the vested benefits account to the latest five years after attainment of AVS/\nAHV retirement age and then ask for the payout.\nThe vested benefits are no longer subject to interest accrual having the pension account holders reached this limit of age.\nRegulatory and legal provisions apply."
+}

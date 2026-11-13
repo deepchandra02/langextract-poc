@@ -1,0 +1,1526 @@
+{
+  "source_file": "authorisation-to-inform-en.pdf",
+  "mode": "hybrid",
+  "model_id": "gemini-3.5-flash",
+  "page_count": 2,
+  "title": "Authorisation to give information",
+  "issuer": [
+    {
+      "type": "issuer",
+      "text": "Vested Benefits Foundation of UBS AG",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          0,
+          36
+        ],
+        "page": 1,
+        "bbox": [
+          399.5,
+          28.6,
+          544.8,
+          36.6
+        ],
+        "font_size": 8.0,
+        "bold": true
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "P.O.Box, CH-8098 Zurich",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          37,
+          60
+        ],
+        "page": 1,
+        "bbox": [
+          399.5,
+          37.5,
+          487.1,
+          45.5
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "Tel.+41-61-226 75 75",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          61,
+          81
+        ],
+        "page": 1,
+        "bbox": [
+          399.5,
+          46.5,
+          475.0,
+          54.5
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "ubs.com/vb",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          82,
+          92
+        ],
+        "page": 1,
+        "bbox": [
+          399.5,
+          64.5,
+          438.6,
+          72.5
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    },
+    {
+      "type": "issuer",
+      "text": "Vested benefits account",
+      "layout_role": "issuer",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [
+        {
+          "name": "Text4",
+          "type": "text",
+          "page": 1,
+          "bbox": [
+            399.2,
+            86.9,
+            545.6,
+            99.3
+          ],
+          "label_position": "above"
+        }
+      ],
+      "provenance": {
+        "char_span": [
+          93,
+          116
+        ],
+        "page": 1,
+        "bbox": [
+          399.5,
+          79.2,
+          481.3,
+          87.2
+        ],
+        "font_size": 8.0,
+        "bold": false
+      }
+    }
+  ],
+  "recipient_address": [
+    {
+      "type": "address",
+      "text": "Vested Benefits Foundation of UBS AG",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          117,
+          153
+        ],
+        "page": 1,
+        "bbox": [
+          85.0,
+          113.6,
+          258.2,
+          124.1
+        ],
+        "font_size": 10.5,
+        "bold": false
+      }
+    },
+    {
+      "type": "address",
+      "text": "P.O. Box",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          154,
+          162
+        ],
+        "page": 1,
+        "bbox": [
+          85.0,
+          127.1,
+          122.9,
+          137.5
+        ],
+        "font_size": 10.5,
+        "bold": false
+      }
+    },
+    {
+      "type": "address",
+      "text": "CH-8098 Zurich",
+      "layout_role": "address_block",
+      "llm_class": null,
+      "agreement": "llm_missing",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          163,
+          177
+        ],
+        "page": 1,
+        "bbox": [
+          85.0,
+          140.5,
+          156.2,
+          151.0
+        ],
+        "font_size": 10.5,
+        "bold": false
+      }
+    }
+  ],
+  "parts": [
+    {
+      "kind": "form",
+      "title": {
+        "type": "form_title",
+        "text": "Authorisation to give information",
+        "layout_role": "title",
+        "llm_class": "form_title",
+        "agreement": "agree",
+        "attributes": {},
+        "fields": [],
+        "provenance": {
+          "char_span": [
+            178,
+            211
+          ],
+          "page": 1,
+          "bbox": [
+            49.6,
+            256.6,
+            305.5,
+            274.6
+          ],
+          "font_size": 18.0,
+          "bold": false
+        }
+      },
+      "form_number": "67299",
+      "version_date": "19.01.2024",
+      "pages": [
+        1,
+        2
+      ],
+      "preamble": [],
+      "sections": [
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Details of pension account holder¹",
+            "layout_role": "section_heading",
+            "llm_class": "section_title",
+            "agreement": "agree",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                212,
+                246
+              ],
+              "page": 1,
+              "bbox": [
+                49.6,
+                300.1,
+                178.6,
+                308.1
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Last name",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Nachname",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.2,
+                    316.9,
+                    290.7,
+                    329.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  247,
+                  256
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  332.3,
+                  84.2,
+                  340.3
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "First name(s)",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Vorname",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    304.3,
+                    316.9,
+                    545.9,
+                    329.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  257,
+                  270
+                ],
+                "page": 1,
+                "bbox": [
+                  304.6,
+                  332.3,
+                  347.2,
+                  340.3
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Street, no.",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Strasse Nr",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.3,
+                    345.3,
+                    290.8,
+                    357.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  271,
+                  282
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  360.6,
+                  85.1,
+                  368.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Postal code, city",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "PLZ Ort",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    304.3,
+                    345.2,
+                    545.9,
+                    357.6
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  283,
+                  300
+                ],
+                "page": 1,
+                "bbox": [
+                  304.6,
+                  360.6,
+                  359.2,
+                  368.6
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Country",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Land",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.3,
+                    373.6,
+                    290.8,
+                    386.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  301,
+                  308
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  388.9,
+                  77.1,
+                  396.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date of birth (dd.mm.yyyy)",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {
+                "format_hint": "dd.mm.yyyy"
+              },
+              "fields": [
+                {
+                  "name": "Geburtsdatum_af_date",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    304.3,
+                    373.6,
+                    545.9,
+                    386.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  309,
+                  335
+                ],
+                "page": 1,
+                "bbox": [
+                  304.6,
+                  388.9,
+                  395.7,
+                  396.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "AHV number / Social security number (756.xxxx.xxxx.xx)",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {
+                "format_hint": "756.xxxx.xxxx.xx"
+              },
+              "fields": [
+                {
+                  "name": "AHV",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.4,
+                    401.9,
+                    291.0,
+                    414.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  336,
+                  390
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  417.3,
+                  239.3,
+                  425.3
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Phone no.",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Telefon",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    304.2,
+                    402.1,
+                    545.7,
+                    414.5
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  391,
+                  400
+                ],
+                "page": 1,
+                "bbox": [
+                  304.6,
+                  417.3,
+                  339.3,
+                  425.3
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "The authorised representative",
+            "layout_role": "section_heading",
+            "llm_class": "section_title",
+            "agreement": "agree",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                401,
+                430
+              ],
+              "page": 1,
+              "bbox": [
+                49.6,
+                446.2,
+                162.9,
+                454.2
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Last name",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Nachname1",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.3,
+                    463.0,
+                    290.7,
+                    475.4
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  431,
+                  440
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  478.4,
+                  84.2,
+                  486.4
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "First name(s)",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Vorname1",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    304.4,
+                    463.0,
+                    545.9,
+                    475.4
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  441,
+                  454
+                ],
+                "page": 1,
+                "bbox": [
+                  304.6,
+                  478.4,
+                  347.2,
+                  486.4
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Street, no.",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Strasse Nr1",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.3,
+                    491.3,
+                    290.6,
+                    503.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  455,
+                  466
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  506.7,
+                  85.1,
+                  514.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Postal code, city",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "PLZ Ort1",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    304.4,
+                    491.4,
+                    545.9,
+                    503.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  467,
+                  484
+                ],
+                "page": 1,
+                "bbox": [
+                  304.6,
+                  506.7,
+                  359.2,
+                  514.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Phone no.",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Telefon1",
+                  "type": "text",
+                  "page": 1,
+                  "bbox": [
+                    49.3,
+                    519.7,
+                    290.8,
+                    532.1
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  485,
+                  494
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  535.0,
+                  84.3,
+                  543.0
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Authorisation",
+            "layout_role": "section_heading",
+            "llm_class": "section_title",
+            "agreement": "agree",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                495,
+                508
+              ],
+              "page": 1,
+              "bbox": [
+                49.6,
+                563.9,
+                101.6,
+                571.9
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "legal_text",
+              "text": "The authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and\nthe UBS vested benefits custody account from the Vested Benefits Foundation of UBS AG (\"Vested Benefits Foundation\") on behalf of the pen-\nsion account holder.",
+              "layout_role": "paragraph",
+              "llm_class": "legal_text",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  509,
+                  812
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  581.9,
+                  545.4,
+                  589.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "legal_text",
+              "text": "The pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep-\nresentative that they chooses. Therefore, it shall be the authorised representative’s exclusive responsibility to notify the pension account holder of\ntheir actions.",
+              "layout_role": "paragraph",
+              "llm_class": "legal_text",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  813,
+                  1122
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  617.9,
+                  545.4,
+                  625.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "legal_text",
+              "text": "This authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa-\ntion shall remain in force without restriction even in the event of incapacity of the pension account holder.",
+              "layout_role": "paragraph",
+              "llm_class": "legal_text",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1123,
+                  1381
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  653.9,
+                  545.4,
+                  661.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "legal_text",
+              "text": "Once the Vested Benefits Foundation\nhas knowledge of the pension account holder’s death, this authorisation shall be considered void as of the date on which the information has\nbeen received.\nThe present authorisation shall be exclusively governed by and construed in accordance with Swiss law.\nThe place of performance of all obligations of both parties as well as the exclusive place of jurisdiction for any disputes arising out of and in\nconnection with the present authorisation is the Swiss foundation's seat.\nThe Vested Benefits Foundation is empowered, however, to assert its rights as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.",
+              "layout_role": "paragraph",
+              "llm_class": "legal_text",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  1382,
+                  2081
+                ],
+                "page": 1,
+                "bbox": [
+                  49.6,
+                  662.9,
+                  545.4,
+                  670.9
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "Signature(s)",
+            "layout_role": "section_heading",
+            "llm_class": "section_title",
+            "agreement": "agree",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                2083,
+                2095
+              ],
+              "page": 2,
+              "bbox": [
+                49.6,
+                130.6,
+                94.9,
+                138.6
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Place",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Ort",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    49.3,
+                    175.7,
+                    205.7,
+                    188.2
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2096,
+                  2101
+                ],
+                "page": 2,
+                "bbox": [
+                  49.6,
+                  191.1,
+                  66.9,
+                  199.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date (dd.mm.yyyy)",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {
+                "format_hint": "dd.mm.yyyy"
+              },
+              "fields": [
+                {
+                  "name": "Date5_af_date",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    219.3,
+                    175.7,
+                    290.7,
+                    188.2
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2102,
+                  2119
+                ],
+                "page": 2,
+                "bbox": [
+                  219.6,
+                  191.1,
+                  283.1,
+                  199.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Signature of the authorised representative",
+              "layout_role": "paragraph",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  2120,
+                  2162
+                ],
+                "page": 2,
+                "bbox": [
+                  304.6,
+                  191.1,
+                  448.1,
+                  199.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "required_document",
+              "text": "(Please enclose a copy of signed identity document)",
+              "layout_role": "field_label",
+              "llm_class": "required_document",
+              "agreement": "disagree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Nachname1",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    425.4,
+                    211.3,
+                    546.4,
+                    223.7
+                  ],
+                  "label_position": "above"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2163,
+                  2214
+                ],
+                "page": 2,
+                "bbox": [
+                  304.6,
+                  200.1,
+                  480.1,
+                  208.1
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Name of the authorised representative",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Vorname1",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    304.3,
+                    211.3,
+                    425.4,
+                    223.7
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2215,
+                  2252
+                ],
+                "page": 2,
+                "bbox": [
+                  304.6,
+                  226.7,
+                  435.7,
+                  234.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Place",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Ort_2",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    50.8,
+                    262.7,
+                    205.6,
+                    275.2
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2253,
+                  2258
+                ],
+                "page": 2,
+                "bbox": [
+                  49.6,
+                  278.2,
+                  66.9,
+                  286.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Date (dd.mm.yyyy)",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {
+                "format_hint": "dd.mm.yyyy"
+              },
+              "fields": [
+                {
+                  "name": "Date6_af_date",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    219.3,
+                    262.8,
+                    290.7,
+                    275.3
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2259,
+                  2276
+                ],
+                "page": 2,
+                "bbox": [
+                  219.6,
+                  278.2,
+                  283.1,
+                  286.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Signature of the pension account holder",
+              "layout_role": "paragraph",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  2277,
+                  2316
+                ],
+                "page": 2,
+                "bbox": [
+                  304.6,
+                  278.2,
+                  441.9,
+                  286.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "required_document",
+              "text": "(Please enclose a copy of signed identity document)",
+              "layout_role": "field_label",
+              "llm_class": "required_document",
+              "agreement": "disagree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Nachname",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    425.5,
+                    298.6,
+                    546.5,
+                    311.0
+                  ],
+                  "label_position": "above"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2317,
+                  2368
+                ],
+                "page": 2,
+                "bbox": [
+                  304.6,
+                  287.2,
+                  480.1,
+                  295.2
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Name of the pension account holder",
+              "layout_role": "field_label",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [
+                {
+                  "name": "Vorname",
+                  "type": "text",
+                  "page": 2,
+                  "bbox": [
+                    304.4,
+                    298.6,
+                    425.5,
+                    311.0
+                  ],
+                  "label_position": "below"
+                }
+              ],
+              "provenance": {
+                "char_span": [
+                  2369,
+                  2403
+                ],
+                "page": 2,
+                "bbox": [
+                  304.6,
+                  313.7,
+                  429.5,
+                  321.7
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "instruction",
+              "text": "Send original to the Vested Benefits Foundation of UBS AG.",
+              "layout_role": "emphasised_text",
+              "llm_class": "instruction",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  2404,
+                  2462
+                ],
+                "page": 2,
+                "bbox": [
+                  49.6,
+                  362.5,
+                  274.0,
+                  370.5
+                ],
+                "font_size": 8.0,
+                "bold": true
+              }
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": {
+            "type": "section_title",
+            "text": "For internal bank use only",
+            "layout_role": "section_heading",
+            "llm_class": "section_title",
+            "agreement": "agree",
+            "attributes": {},
+            "fields": [],
+            "provenance": {
+              "char_span": [
+                2588,
+                2614
+              ],
+              "page": 2,
+              "bbox": [
+                49.6,
+                774.1,
+                147.8,
+                782.1
+              ],
+              "font_size": 8.0,
+              "bold": true
+            }
+          },
+          "level": 1,
+          "items": [
+            {
+              "type": "field_label",
+              "text": "Signature(s) verified / Signed in my presence",
+              "layout_role": "paragraph",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  2615,
+                  2660
+                ],
+                "page": 2,
+                "bbox": [
+                  194.1,
+                  774.0,
+                  344.3,
+                  782.0
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "OU ref.",
+              "layout_role": "paragraph",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  2661,
+                  2668
+                ],
+                "page": 2,
+                "bbox": [
+                  194.1,
+                  795.3,
+                  219.0,
+                  803.3
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            },
+            {
+              "type": "field_label",
+              "text": "Signature",
+              "layout_role": "paragraph",
+              "llm_class": "field_label",
+              "agreement": "agree",
+              "attributes": {},
+              "fields": [],
+              "provenance": {
+                "char_span": [
+                  2669,
+                  2678
+                ],
+                "page": 2,
+                "bbox": [
+                  355.6,
+                  795.3,
+                  388.0,
+                  803.3
+                ],
+                "font_size": 8.0,
+                "bold": false
+              }
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "type": "footnote",
+      "text": "¹ The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.",
+      "layout_role": "footnote",
+      "llm_class": "footnote",
+      "agreement": "agree",
+      "attributes": {},
+      "fields": [],
+      "provenance": {
+        "char_span": [
+          2463,
+          2587
+        ],
+        "page": 2,
+        "bbox": [
+          49.5,
+          754.3,
+          385.2,
+          760.8
+        ],
+        "font_size": 6.5,
+        "bold": false
+      }
+    }
+  ],
+  "diagnostics": {
+    "llm_extractions_total": 38,
+    "llm_extractions_accepted": 38,
+    "rejected": [],
+    "dropped_attributes": [],
+    "layout_disagreements": [
+      {
+        "text": "(Please enclose a copy of signed identity document)",
+        "page": 2,
+        "layout_role": "field_label",
+        "llm_class": "required_document",
+        "resolution": "kept LLM class 'required_document' (content-level difference)"
+      },
+      {
+        "text": "(Please enclose a copy of signed identity document)",
+        "page": 2,
+        "layout_role": "field_label",
+        "llm_class": "required_document",
+        "resolution": "kept LLM class 'required_document' (content-level difference)"
+      }
+    ],
+    "missed_by_llm": [],
+    "unlabelled_fields": [
+      "Text4 (page 2, text)"
+    ],
+    "dropped_noise": [
+      {
+        "page": 1,
+        "text": "29 chars",
+        "top": null,
+        "reason": "tiny font (barcode)"
+      },
+      {
+        "page": 1,
+        "text": "00000000",
+        "top": 403.1,
+        "reason": "digits-only placeholder"
+      },
+      {
+        "page": 1,
+        "text": "67299 E V0 001 BAUK 19.01.2024 BDB N1 Page 1/2",
+        "top": 810.6,
+        "reason": "footer"
+      },
+      {
+        "page": 2,
+        "text": "29 chars",
+        "top": null,
+        "reason": "tiny font (barcode)"
+      },
+      {
+        "page": 2,
+        "text": "Vested Benefits Foundation of UBS AG",
+        "top": 28.6,
+        "reason": "running header"
+      },
+      {
+        "page": 2,
+        "text": "Vested benefits account",
+        "top": 52.2,
+        "reason": "running header"
+      },
+      {
+        "page": 2,
+        "text": "67299 E V0 001 BAUK 19.01.2024 BDB N1 Page 2/2",
+        "top": 810.6,
+        "reason": "footer"
+      }
+    ]
+  },
+  "source_text": "Vested Benefits Foundation of UBS AG\nP.O.Box, CH-8098 Zurich\nTel.+41-61-226 75 75\nubs.com/vb\nVested benefits account\nVested Benefits Foundation of UBS AG\nP.O. Box\nCH-8098 Zurich\nAuthorisation to give information\nDetails of pension account holder¹\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nCountry\nDate of birth (dd.mm.yyyy)\nAHV number / Social security number (756.xxxx.xxxx.xx)\nPhone no.\nThe authorised representative\nLast name\nFirst name(s)\nStreet, no.\nPostal code, city\nPhone no.\nAuthorisation\nThe authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and\nthe UBS vested benefits custody account from the Vested Benefits Foundation of UBS AG (\"Vested Benefits Foundation\") on behalf of the pen-\nsion account holder.\nThe pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep-\nresentative that they chooses. Therefore, it shall be the authorised representative’s exclusive responsibility to notify the pension account holder of\ntheir actions.\nThis authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa-\ntion shall remain in force without restriction even in the event of incapacity of the pension account holder. Once the Vested Benefits Foundation\nhas knowledge of the pension account holder’s death, this authorisation shall be considered void as of the date on which the information has\nbeen received.\nThe present authorisation shall be exclusively governed by and construed in accordance with Swiss law.\nThe place of performance of all obligations of both parties as well as the exclusive place of jurisdiction for any disputes arising out of and in\nconnection with the present authorisation is the Swiss foundation's seat.\nThe Vested Benefits Foundation is empowered, however, to assert its rights as well before any other competent authority, in which event exclu-\nsively Swiss law shall remain applicable.\n\nSignature(s)\nPlace\nDate (dd.mm.yyyy)\nSignature of the authorised representative\n(Please enclose a copy of signed identity document)\nName of the authorised representative\nPlace\nDate (dd.mm.yyyy)\nSignature of the pension account holder\n(Please enclose a copy of signed identity document)\nName of the pension account holder\nSend original to the Vested Benefits Foundation of UBS AG.\n¹ The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.\nFor internal bank use only\nSignature(s) verified / Signed in my presence\nOU ref.\nSignature"
+}

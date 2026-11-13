@@ -1,0 +1,5 @@
+langextract>=1.7
+pdfplumber>=0.11
+pypdf>=5
+pydantic>=2
+pytest>=8

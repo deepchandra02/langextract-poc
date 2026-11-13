@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "form-extract"
+version = "0.1.0"
+description = "LangExtract POC: grounded structure extraction from PDF forms"
+requires-python = ">=3.10"
+dependencies = ["langextract>=1.7", "pdfplumber>=0.11", "pypdf>=5", "pydantic>=2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+form-extract = "form_extract.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore:'use_schema_constraints' is ignored"]

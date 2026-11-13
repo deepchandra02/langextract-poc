@@ -1,0 +1,45 @@
+authorisation-to-inform-en.pdf  (hybrid, gemini-3.5-flash, 2 pages)
+Issuer: Vested Benefits Foundation of UBS AG | P.O.Box, CH-8098 Zurich | Tel.+41-61-226 75 75 | ubs.com/vb | Vested benefits account
+
+# Authorisation to give information   [form, form 67299 of 19.01.2024, pages [1, 2]]
+  ## Details of pension account holder¹
+    - field_label: Last name  <text:Nachname>
+    - field_label: First name(s)  <text:Vorname>
+    - field_label: Street, no.  <text:Strasse Nr>
+    - field_label: Postal code, city  <text:PLZ Ort>
+    - field_label: Country  <text:Land>
+    - field_label: Date of birth (dd.mm.yyyy)  {'format_hint': 'dd.mm.yyyy'}  <text:Geburtsdatum_af_date>
+    - field_label: AHV number / Social security number (756.xxxx.xxxx.xx)  {'format_hint': '756.xxxx.xxxx.xx'}  <text:AHV>
+    - field_label: Phone no.  <text:Telefon>
+  ## The authorised representative
+    - field_label: Last name  <text:Nachname1>
+    - field_label: First name(s)  <text:Vorname1>
+    - field_label: Street, no.  <text:Strasse Nr1>
+    - field_label: Postal code, city  <text:PLZ Ort1>
+    - field_label: Phone no.  <text:Telefon1>
+  ## Authorisation
+    - legal_text: The authorised representative (only individual persons) is hereby permitted to obtain information regarding the UBS vested benefits account and the UBS vested benefits custody account from the Vested Benefits Foundation of UBS AG ("Vested Benefits Foundation") on behalf of the pen- sion account holder.
+    - legal_text: The pension account holder is aware that the Vested Benefits Foundation exercises no control whatsoever over the actions of the authorised rep- resentative that they chooses. Therefore, it shall be the authorised representative’s exclusive responsibility to notify the pension account holder of their actions.
+    - legal_text: This authorisation shall remain valid until it is expressly revoked by written communication sent to the Vested Benefits Foundation. This authorisa- tion shall remain in force without restriction even in the event of incapacity of the pension account holder.
+    - legal_text: Once the Vested Benefits Foundation has knowledge of the pension account holder’s death, this authorisation shall be considered void as of the date on which the information has been received. The present authorisation shall be exclusively governed by and construed in accordance with Swiss law. The place of performance of all obligations of both parties as well as the exclusive place of jurisdiction for any disputes arising out of and in connection with the present authorisation is the Swiss foundation's seat. The Vested Benefits Foundation is empowered, however, to assert its rights as well before any other competent authority, in which event exclu- sively Swiss law shall remain applicable.
+  ## Signature(s)
+    - field_label: Place  <text:Ort>
+    - field_label: Date (dd.mm.yyyy)  {'format_hint': 'dd.mm.yyyy'}  <text:Date5_af_date>
+    - field_label: Signature of the authorised representative
+    - required_document: (Please enclose a copy of signed identity document)  <text:Nachname1>  [!layout/LLM disagree]
+    - field_label: Name of the authorised representative  <text:Vorname1>
+    - field_label: Place  <text:Ort_2>
+    - field_label: Date (dd.mm.yyyy)  {'format_hint': 'dd.mm.yyyy'}  <text:Date6_af_date>
+    - field_label: Signature of the pension account holder
+    - required_document: (Please enclose a copy of signed identity document)  <text:Nachname>  [!layout/LLM disagree]
+    - field_label: Name of the pension account holder  <text:Vorname>
+    - instruction: Send original to the Vested Benefits Foundation of UBS AG.
+  ## For internal bank use only
+    - field_label: Signature(s) verified / Signed in my presence
+    - field_label: OU ref.
+    - field_label: Signature
+
+Footnotes:
+  - ¹ The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.
+
+Diagnostics: llm accepted 38/38, rejected 0, disagreements 2, missed_by_llm 0, unlabelled fields 1

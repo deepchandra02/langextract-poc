@@ -1,0 +1,37 @@
+order-to-transfer-retirement-assets-to-ubs-en.pdf  (layout-only, 2 pages)
+
+# Order to transfer retirement assets to the Vested Benefits Foundation of UBS AG   [form, form 62291 of 15.03.2024, pages [1, 2]]
+  - paragraph: By using this form you are requesting the transfer of your vested benefits to the Vested Benefits Foundation of UBS AG.
+  - paragraph: Your new vested benefits account will only be opened after the vested benefits from your previous pension fund have been transfered and after they have been booked to the account of the Vested Benefits Foundation of UBS AG.
+  ## Details of pension account holder
+    - field_label: Last name  <text:Nom>
+    - field_label: First name(s)  <text:Prénom>
+    - field_label: Street, no.  <text:Rue>
+    - field_label: Postal code, city  <text:NPA localité>
+    - field_label: Country  <text:Pays>
+    - field_label: Date of birth (dd.mm.yyyy)  <text:Date de naissance>
+    - field_label: AHV number / Social security number (756.xxxx.xxxx.xx)  <text:Versichertennr 2>
+    - field_label: Marital status  <choice:Dropdown2>
+    - field_label: Phone no.  <text:N de téléphone>
+  ## Order
+    - paragraph: I hereby request immediate transfer of my total retirement assets to the below-mentioned account of the Vested Benefits Foundation of UBS AG.
+    - paragraph: Existing securities should be sold prior to the transfer.
+  ## Payment instruction
+    - prefilled_value: UBS Switzerland AG, CH-8098 Zürich
+    - prefilled_value: CH81 0023 0230 1011 8870 0
+    - field_label: Bank
+    - field_label: IBAN
+    - prefilled_value: Vested Benefits Foundation of UBS AG, CH-4002 Basel
+    - field_label: Holder
+    - paragraph: The Vested Benefits Foundation of UBS AG confirms that it maintains only 2nd pillar accounts according to the Swiss Federal Law on Occupational Retirement, Survivors' and Disability Plans (LPP/BVG).
+  ## Signature
+    - instruction: Please send the completed form to your previous pension fund or vested benefits foundation. Please do not send this form to the Vested Benefits Foundation of UBS AG.
+    - paragraph: If you need a Vested Benefits Account due to a divorce, please ask the judge or your attorney to insert the IBAN (CH81 0023 0230 1011 8870 0) of the Vested Benefits Foundation of UBS AG in the divorce decree.
+    - field_label: Place  <text:Lieu>
+    - field_label: Date (dd.mm.yyyy)  <text:Date>
+    - field_label: Signature of pension account holder  <text:Prénom>
+
+Footnotes:
+  - The singular form also includes the plural, and all masculine terms referring to persons refer to persons of both genders.
+
+Diagnostics: llm accepted 0/0, rejected 0, disagreements 0, missed_by_llm 0, unlabelled fields 2
